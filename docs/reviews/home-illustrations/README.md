@@ -70,3 +70,50 @@ python docs/reviews/home-illustrations/prepare.py
 
 Les rééchantillonnages de la planche concernent uniquement les aperçus ; les
 quatre PNG livrés restent aux dimensions natives des découpes.
+
+## Simulation d’intégration — à valider
+
+`accueil-simulation-1837x856.png` est une capture complète du véritable Accueil,
+avec les quatre PNG appliqués temporairement dans Chromium. Le fichier
+`simulation.css` reste dans ce dossier de revue et n’est importé par aucun
+composant de l’application. Aucun fichier de `src/` ou `assets/` n’a changé.
+
+- **Battleground et Communauté** : `cover` centré validé, avec les dégradés
+  existants.
+- **Communication officielle** : panorama à 100 % de la largeur, hauteur
+  proportionnelle (environ 139 px), ancré au bas du panneau. Toute sa largeur
+  reste visible ; tour et soleil sont conservés. Le dégradé existant est gardé.
+- **DLC** : image proportionnelle ancrée en haut, sur 80 % de la hauteur du
+  fond du panneau (environ 119 px). Environ 91,6 % de sa largeur sont visibles,
+  contre 73,3 % avec le `cover` du panneau entier. Les survivants latéraux sont
+  mieux conservés. Un fondu vers le fond sombre derrière les textes évite une
+  rupture ou une bande transparente ; aucun étirement n’est appliqué.
+
+Captures complémentaires :
+
+- `accueil-avant-simulation-1837x856.png` : application sans styles de revue.
+- `communication-simulation.png` : panneau communication en taille réelle.
+- `cartes-simulation.png` : les trois cartes en taille réelle.
+- `dlc-cover-temoin.png` et `dlc-compromis.png` : comparaison du cadrage DLC.
+
+Vérifications automatiques dans `simulation-verification.json` : dimensions et
+positions identiques, textes et décor identiques, pixels hors des quatre panneaux
+strictement identiques, six communications accessibles, retour à la première
+après six clics, navigation arrière vérifiée et aucune erreur JavaScript.
+Ces vérifications ciblent la simulation à 1837 × 856 ; ce n’est pas une validation
+d’intégration responsive ou d’export autonome.
+
+Reproduction, depuis la racine du dépôt, après lancement de Vite :
+
+```sh
+npm run dev -- --port 5173 --strictPort
+# Dans un second terminal :
+node docs/reviews/home-illustrations/simulate.mjs
+```
+
+Le script utilise Chromium système (`/usr/bin/chromium`) ou le chemin fourni
+dans `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`. `SCUM_REVIEW_URL` permet d’indiquer
+une autre adresse locale du serveur Vite. Les styles temporaires persistent
+pendant le parcours du carrousel dans la page de revue, puis disparaissent
+avec la fermeture du navigateur. L’intégration définitive attend la validation
+graphique ; aucune fusion n’est effectuée.
