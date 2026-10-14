@@ -142,3 +142,7 @@ visuelles.
 La [première correction de géométrie de l’Accueil](docs/reviews/home-geometry/README.md)
 contient les mesures et captures avant/après. Les finitions graphiques restent
 à traiter séparément.
+
+Le [fond authentique de l’Accueil](docs/reviews/home-background/README.md)
+utilise la capture SCUM fournie, embarquée sans retouche dans le HTML autonome.
+La géométrie validée de la PR #2 reste inchangée.

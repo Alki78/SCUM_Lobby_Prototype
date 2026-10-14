@@ -329,7 +329,13 @@ test("ressources originales et export autonome", async () => {
       ...standalone.matchAll(/data:image\/[\w+]+;base64,([A-Za-z0-9+/=]+)/g),
     ].map((match) => hash(Buffer.from(match[1], "base64"))),
   );
-  expect([...builtHashes].sort()).toEqual([...originalHashes].sort());
+  // The authentic background is an intentional additional source; all 22
+  // V0.4.3 image hashes must still be present and unchanged.
+  const authenticHash = hash(
+    await readFile("docs/references/SCUM_Lobby_Original.png.png"),
+  );
+  const expectedHashes = new Set([...originalHashes, authenticHash]);
+  expect([...builtHashes].sort()).toEqual([...expectedHashes].sort());
   expect(await readdir("dist")).toEqual(["index.html"]);
   expect(standalone).not.toMatch(
     /<script[^>]+src=|<link[^>]+rel=["']stylesheet/,
