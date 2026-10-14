@@ -1,0 +1,321 @@
+/* V0.4.2 — ACCUEIL UNIQUEMENT : référence Lobby_Accueil_v1, responsive sans défilement */
+html,
+body {
+  overflow-x: hidden;
+}
+.app[data-bg="home"] {
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.app[data-bg="home"] header {
+  flex: 0 0 79px;
+  min-height: 79px;
+  height: 79px;
+}
+.app[data-bg="home"] .wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: clamp(12px, 1.55vh, 19px) clamp(20px, 3.4vw, 64px)
+    clamp(12px, 1.55vh, 19px) !important;
+}
+.app[data-bg="home"] .footer {
+  position: relative;
+  bottom: auto;
+  flex: 0 0 47px;
+  height: 47px;
+  min-height: 47px;
+}
+.app[data-bg="home"] .home-v04 {
+  display: grid;
+  grid-template-columns: minmax(0, 42%) minmax(0, 1fr);
+  gap: 20px;
+  height: 100%;
+  min-height: 0;
+  align-items: stretch;
+  max-width: none;
+  margin: 0;
+}
+.app[data-bg="home"] .home-stage {
+  min-width: 0;
+}
+.app[data-bg="home"] .home-stack {
+  display: grid;
+  grid-template-rows: minmax(0, 1.12fr) minmax(0, 1.08fr) minmax(0, 0.64fr);
+  gap: 12px;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.app[data-bg="home"] .home-session.panel {
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 13px 16px;
+  background: rgba(7, 11, 15, 0.88);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.app[data-bg="home"] .home-label {
+  font-size: clamp(11px, 0.83vw, 14px);
+  font-weight: 800;
+  border-left: 5px solid #e74436;
+  padding-left: 10px;
+  letter-spacing: 0.2px;
+  display: inline-block;
+}
+.app[data-bg="home"] .home-session-body {
+  display: grid;
+  grid-template-columns: minmax(0, 49%) minmax(0, 1fr);
+  gap: clamp(10px, 1.2vw, 22px);
+  flex: 1;
+  min-height: 0;
+  margin-top: 12px;
+  align-items: stretch;
+}
+.app[data-bg="home"] .home-session-art {
+  min-height: 0;
+  height: 100%;
+  background: url("../../../assets/images/last-session.jpg") center/cover
+    no-repeat;
+  border: 1px solid #434b50;
+}
+.app[data-bg="home"] .home-session-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.app[data-bg="home"] .home-session-details h2 {
+  font-size: clamp(15px, 1.25vw, 22px);
+  line-height: 1.14;
+  margin: 0 0 4px;
+}
+.app[data-bg="home"] .home-session-details p {
+  font-size: clamp(11px, 0.85vw, 14px);
+  color: #c5cbd1;
+  margin: 0 0 12px;
+}
+.app[data-bg="home"] .home-meta {
+  color: #c0c7ce;
+  font-size: clamp(10px, 0.8vw, 13px);
+  margin: 4px 0;
+}
+.app[data-bg="home"] .home-session-details .btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 11px 7px;
+  font-size: clamp(11px, 0.95vw, 15px);
+}
+.app[data-bg="home"] .home-news-v04 {
+  height: 100%;
+  min-height: 0;
+  padding: 12px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(6, 10, 14, 0.96) 0%,
+      rgba(8, 12, 16, 0.91) 41%,
+      rgba(5, 8, 12, 0.23) 100%
+    ),
+    url("../../../assets/images/home-news.jpg") center bottom/cover no-repeat;
+  border: 1px solid #6c4140;
+  overflow: hidden;
+}
+.app[data-bg="home"] .home-news-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.app[data-bg="home"] .home-news-date {
+  font-size: 11px;
+  color: #aab1b8;
+  white-space: nowrap;
+}
+.app[data-bg="home"] .home-news-v04 h2 {
+  font-size: clamp(18px, 1.55vw, 26px);
+  line-height: 1.1;
+  margin: 7px 0 7px;
+}
+.app[data-bg="home"] .home-news-v04 p {
+  font-size: clamp(11px, 0.85vw, 14px);
+  line-height: 1.35;
+  margin: 0;
+  max-width: 95%;
+  color: #d3d6d9;
+}
+.app[data-bg="home"] .home-news-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  gap: 8px;
+}
+.app[data-bg="home"] .home-news-controls .btn {
+  padding: 7px 11px;
+  font-size: clamp(10px, 0.8vw, 13px);
+}
+.app[data-bg="home"] .home-news-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 7px;
+}
+.app[data-bg="home"] .home-news-dots span {
+  height: 6px;
+  width: 6px;
+  background: #79818a;
+  border-radius: 50%;
+}
+.app[data-bg="home"] .home-news-dots span.active {
+  background: #e74436;
+}
+.app[data-bg="home"] .home-promo-v04 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 !important;
+  min-height: 0;
+  height: 100%;
+}
+.app[data-bg="home"] .home-promo-v04 .promo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 5px;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  padding: 12px 10px;
+  background:
+    linear-gradient(0deg, #06090df5 0%, #06090d10 90%),
+    url("../../../assets/images/promo-battleground.jpg") center/cover no-repeat;
+}
+.app[data-bg="home"] .home-promo-v04 .promo:nth-child(2) {
+  background:
+    linear-gradient(0deg, #06090df5 0%, #06090d10 90%),
+    url("../../../assets/images/promo-dlc.jpg") center/cover no-repeat;
+}
+.app[data-bg="home"] .home-promo-v04 .promo:nth-child(3) {
+  background:
+    linear-gradient(0deg, #06090df5 0%, #06090d10 90%),
+    url("../../../assets/images/promo-community.jpg") center/cover no-repeat;
+}
+.app[data-bg="home"] .home-promo-v04 .promo strong {
+  font-size: clamp(11px, 0.94vw, 15px);
+}
+.app[data-bg="home"] .home-promo-v04 .promo small {
+  font-size: clamp(9px, 0.7vw, 11px);
+  color: #c1c6cc;
+  font-weight: 400;
+}
+.app[data-bg="home"] .home-promo-v04 .promo span {
+  position: absolute;
+  right: 10px;
+  bottom: 11px;
+}
+@media (max-width: 1100px) {
+  .app[data-bg="home"] .home-v04 {
+    grid-template-columns: minmax(0, 52%) minmax(0, 1fr);
+  }
+  .app[data-bg="home"] .home-session-body {
+    grid-template-columns: 43% 1fr;
+  }
+}
+@media (max-width: 780px) {
+  .app[data-bg="home"] {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+  .app[data-bg="home"] header {
+    height: auto;
+    flex-basis: auto;
+  }
+  .app[data-bg="home"] .wrap {
+    overflow: visible;
+    flex: 1;
+  }
+  .app[data-bg="home"] .home-v04 {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .app[data-bg="home"] .home-stack {
+    height: auto;
+    grid-template-rows: 245px 235px 160px;
+  }
+  .app[data-bg="home"] .home-session-body {
+    grid-template-columns: 43% 1fr;
+  }
+  .app[data-bg="home"] .footer {
+    position: relative;
+  }
+}
+@media (max-height: 710px) and (min-width: 781px) {
+  .app[data-bg="home"] .home-stack {
+    gap: 8px;
+  }
+  .app[data-bg="home"] .home-session.panel {
+    padding: 8px 12px;
+  }
+  .app[data-bg="home"] .home-session-body {
+    margin-top: 6px;
+  }
+  .app[data-bg="home"] .home-news-v04 {
+    padding: 8px 12px;
+  }
+  .app[data-bg="home"] .home-session-details p {
+    margin-bottom: 5px;
+  }
+  .app[data-bg="home"] .home-meta {
+    margin: 2px 0;
+  }
+}
+
+/* V0.4.3: restore lobby background without UI screenshots in foreground */
+.app[data-bg="home"]::before {
+  background-image:
+    linear-gradient(90deg, rgba(4, 7, 10, 0.16) 0%, rgba(4, 7, 10, 0) 55%),
+    url("../../../assets/images/home-background.jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  opacity: 1 !important;
+}
+.app[data-bg="home"] .home-session-body {
+  align-items: stretch !important;
+}
+.app[data-bg="home"] .home-session-details {
+  justify-content: flex-start !important;
+  align-self: stretch !important;
+  height: 100% !important;
+  padding: 2px 0 0 !important;
+  min-height: 0 !important;
+}
+.app[data-bg="home"] .home-session-details h2 {
+  margin-top: 0 !important;
+}
+.app[data-bg="home"] .home-session-details .btn {
+  margin-top: auto !important;
+  flex-shrink: 0 !important;
+}
+@media (max-height: 700px) and (min-width: 741px) {
+  .app[data-bg="home"] .home-session-details p {
+    margin-bottom: 4px !important;
+  }
+  .app[data-bg="home"] .home-meta {
+    margin: 2px 0 !important;
+  }
+}
