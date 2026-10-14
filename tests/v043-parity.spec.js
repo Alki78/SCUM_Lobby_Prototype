@@ -334,7 +334,16 @@ test("ressources originales et export autonome", async () => {
   const authenticHash = hash(
     await readFile("docs/references/SCUM_Lobby_Original.png.png"),
   );
-  const expectedHashes = new Set([...originalHashes, authenticHash]);
+  const illustrationHashes = await Promise.all(
+    ["communication-officielle", "battleground", "dlc", "communaute"].map(
+      async (slug) => hash(await readFile(`assets/images/home-${slug}.png`)),
+    ),
+  );
+  const expectedHashes = new Set([
+    ...originalHashes,
+    authenticHash,
+    ...illustrationHashes,
+  ]);
   expect([...builtHashes].sort()).toEqual([...expectedHashes].sort());
   expect(await readdir("dist")).toEqual(["index.html"]);
   expect(standalone).not.toMatch(

@@ -1,0 +1,122 @@
+{
+  "viewport": [
+    1837,
+    856
+  ],
+  "geometryTextsDecorUnchanged": true,
+  "pixelsOutsideIllustrationPanelsUnchanged": true,
+  "checkedPixelsOutsidePanels": 1277488,
+  "sixCommunicationsForwardAndBackward": true,
+  "titles": [
+    "Notes de mise à jour",
+    "Actualités du développement",
+    "Correctifs récents",
+    "Communications officielles",
+    "Historique des mises à jour",
+    "Suivi des correctifs"
+  ],
+  "pageErrors": [],
+  "geometry": {
+    "header": [
+      [
+        0,
+        0,
+        1837,
+        77
+      ]
+    ],
+    "nav": [
+      [
+        295.734375,
+        0,
+        957,
+        76
+      ]
+    ],
+    ".footer": [
+      [
+        0,
+        814,
+        1837,
+        42
+      ]
+    ],
+    ".home-stack": [
+      [
+        65,
+        103,
+        734,
+        693
+      ]
+    ],
+    ".home-session": [
+      [
+        65,
+        103,
+        734,
+        264.390625
+      ]
+    ],
+    ".home-session-art": [
+      [
+        84,
+        146,
+        353.421875,
+        198.390625
+      ]
+    ],
+    ".home-session-details .btn": [
+      [
+        461.421875,
+        296.390625,
+        315.578125,
+        48
+      ]
+    ],
+    ".home-news-v04": [
+      [
+        65,
+        379.390625,
+        734,
+        254.375
+      ]
+    ],
+    ".home-news-controls": [
+      [
+        87,
+        560.765625,
+        690,
+        44
+      ]
+    ],
+    ".home-promo-v04": [
+      [
+        65,
+        645.765625,
+        734,
+        150.234375
+      ]
+    ],
+    ".home-promo-v04 .promo": [
+      [
+        65,
+        645.765625,
+        238,
+        150.234375
+      ],
+      [
+        313,
+        645.765625,
+        238,
+        150.234375
+      ],
+      [
+        561,
+        645.765625,
+        238,
+        150.234375
+      ]
+    ]
+  },
+  "note": "Styles injectés uniquement dans Chromium ; aucune intégration dans src/ ou assets/."
+}
