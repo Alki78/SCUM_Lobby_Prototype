@@ -1,0 +1,488 @@
+[
+  {
+    "viewport": [
+      1837,
+      856
+    ],
+    "geometryIdentical": true,
+    "layout": [
+      {
+        "selector": ".home-session",
+        "rect": [
+          65,
+          103,
+          734,
+          264.390625
+        ]
+      },
+      {
+        "selector": ".home-news-v04",
+        "rect": [
+          65,
+          379.390625,
+          734,
+          254.375
+        ]
+      },
+      {
+        "selector": ".home-news-controls .btn:nth-child(2)",
+        "rect": [
+          329.5,
+          560.765625,
+          205,
+          44
+        ]
+      },
+      {
+        "selector": ".home-session-details .btn",
+        "rect": [
+          461.421875,
+          296.390625,
+          315.578125,
+          48
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          461.421875,
+          211.078125,
+          315.578125,
+          22
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          461.421875,
+          241.078125,
+          315.578125,
+          15
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          461.421875,
+          264.078125,
+          315.578125,
+          15
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          274,
+          761,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          522,
+          761,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          770,
+          761,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          83,
+          746,
+          124.71875,
+          17
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          331,
+          746,
+          30.828125,
+          17
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          579,
+          746,
+          110,
+          17
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          83,
+          768,
+          134.484375,
+          12
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          331,
+          768,
+          145.46875,
+          12
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          579,
+          768,
+          161.1875,
+          12
+        ]
+      },
+      {
+        "selector": ".home-news-dots",
+        "rect": [
+          87,
+          614.765625,
+          690,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "geometryIdentical": true,
+    "layout": [
+      {
+        "selector": ".home-session",
+        "rect": [
+          48.34375,
+          100.34375,
+          545.796875,
+          231.375
+        ]
+      },
+      {
+        "selector": ".home-news-v04",
+        "rect": [
+          48.34375,
+          343.71875,
+          545.796875,
+          222.609375
+        ]
+      },
+      {
+        "selector": ".home-news-controls .btn:nth-child(2)",
+        "rect": [
+          218.75,
+          493.328125,
+          205,
+          44
+        ]
+      },
+      {
+        "selector": ".home-session-details .btn",
+        "rect": [
+          342.453125,
+          260.8125,
+          229.6875,
+          48
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          342.453125,
+          195.8125,
+          229.6875,
+          19
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          342.453125,
+          222.8125,
+          229.6875,
+          13
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          342.453125,
+          243.8125,
+          229.6875,
+          13
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          194.609375,
+          674.78125,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          379.875,
+          674.78125,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          565.140625,
+          674.78125,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          66.34375,
+          662.78125,
+          106.65625,
+          15
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          251.609375,
+          662.78125,
+          26.375,
+          15
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          436.875,
+          651.78125,
+          94.078125,
+          15
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          66.34375,
+          682.78125,
+          116.71875,
+          11
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          251.609375,
+          682.78125,
+          126.25,
+          11
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          436.875,
+          671.78125,
+          139.265625,
+          22
+        ]
+      },
+      {
+        "selector": ".home-news-dots",
+        "rect": [
+          70.34375,
+          547.328125,
+          501.796875,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "geometryIdentical": true,
+    "layout": [
+      {
+        "selector": ".home-session",
+        "rect": [
+          14,
+          125,
+          362,
+          260
+        ]
+      },
+      {
+        "selector": ".home-news-v04",
+        "rect": [
+          14,
+          397,
+          362,
+          235
+        ]
+      },
+      {
+        "selector": ".home-news-controls .btn:nth-child(2)",
+        "rect": [
+          115,
+          559,
+          160,
+          44
+        ]
+      },
+      {
+        "selector": ".home-session-details .btn",
+        "rect": [
+          177.859375,
+          314,
+          176.125,
+          48
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          177.859375,
+          217.09375,
+          176.125,
+          17
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          177.859375,
+          242.09375,
+          176.125,
+          11
+        ]
+      },
+      {
+        "selector": ".home-meta",
+        "rect": [
+          177.859375,
+          261.09375,
+          176.125,
+          11
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          99,
+          769,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          223,
+          769,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo span",
+        "rect": [
+          347,
+          769,
+          12,
+          18
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          25,
+          751,
+          91.46875,
+          12
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          149,
+          751,
+          22.609375,
+          12
+        ]
+      },
+      {
+        "selector": ".promo strong",
+        "rect": [
+          273,
+          751,
+          80.671875,
+          12
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          25,
+          768,
+          92,
+          20
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          149,
+          768,
+          92,
+          20
+        ]
+      },
+      {
+        "selector": ".promo small",
+        "rect": [
+          273,
+          768,
+          92,
+          20
+        ]
+      },
+      {
+        "selector": ".home-news-dots",
+        "rect": [
+          36,
+          613,
+          318,
+          6
+        ]
+      }
+    ]
+  }
+]

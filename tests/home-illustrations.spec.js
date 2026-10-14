@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { PNG } from "pngjs";
 import { assertHomeGeometry } from "./helpers/home-geometry.js";
 
-function expectSamePixels(actual, expected, avatar) {
+function expectSamePixels(actual, expected, avatar, iconRegions = []) {
   const left = Math.floor(avatar.x);
   const top = Math.floor(avatar.y);
   const right = Math.ceil(avatar.x + avatar.width);
@@ -15,6 +15,16 @@ function expectSamePixels(actual, expected, avatar) {
   let roundedBorderVariations = 0;
   for (let y = 0; y < actual.height; y++) {
     for (let x = 0; x < actual.width; x++) {
+      if (
+        iconRegions.some(
+          (r) =>
+            x >= Math.floor(r.x) &&
+            x < Math.ceil(r.x + r.width) &&
+            y >= Math.floor(r.y) &&
+            y < Math.ceil(r.y + r.height),
+        )
+      )
+        continue;
       const offset = (y * actual.width + x) * 4;
       if (
         actual.data
@@ -129,7 +139,19 @@ for (const viewport of [
             "docs/reviews/home-illustrations/accueil-simulation-1837x856.png",
           ),
         );
-        expectSamePixels(captures[0], approved, avatar);
+        // Les huit emplacements d’icônes ont été remplacés après validation
+        // des illustrations. Leur géométrie/texte est testé séparément.
+        const iconRegions = await development
+          .locator(
+            ".home-meta, .home-session-details .btn, .home-news-controls .btn:nth-child(2), .promo span",
+          )
+          .evaluateAll((elements) =>
+            elements.map((el) => {
+              const r = el.getBoundingClientRect();
+              return { x: r.x, y: r.y, width: r.width, height: r.height };
+            }),
+          );
+        expectSamePixels(captures[0], approved, avatar, iconRegions);
       }
       expect(requests).toEqual([]);
       expect(failures).toEqual([]);
