@@ -1,0 +1,91 @@
+{
+  "source": "docs/references/Lobby_Accueil_Illustrations_Proposition_v1.png",
+  "source_dimensions": [
+    2129,
+    738
+  ],
+  "source_sha256": "9577b4fd53eb181d01af3b45ac699fbd43f615fbc67d8e82367923daa05aae41",
+  "coordinate_convention": "[left, top, right_exclusive, bottom_exclusive]",
+  "viewport_for_panel_measurements": [
+    1837,
+    856
+  ],
+  "images": [
+    {
+      "file": "communication-officielle.png",
+      "crop": [
+        0,
+        0,
+        2129,
+        405
+      ],
+      "dimensions": [
+        2129,
+        405
+      ],
+      "sha256": "cfb03f6c18f5f96d9c7667b141b4bddf31e05ba5226d3643d510e837d3845dd5",
+      "panel_background_dimensions": [
+        732,
+        252.375
+      ],
+      "horizontal_extent_visible_with_current_cover_percent": 55.18
+    },
+    {
+      "file": "battleground.png",
+      "crop": [
+        3,
+        414,
+        697,
+        734
+      ],
+      "dimensions": [
+        694,
+        320
+      ],
+      "sha256": "72c76ba5a53d487bee9876465996452054b563b2f79d1f93cb3e0f58ad0bf049",
+      "panel_background_dimensions": [
+        236,
+        148.234
+      ],
+      "horizontal_extent_visible_with_current_cover_percent": 73.41
+    },
+    {
+      "file": "dlc.png",
+      "crop": [
+        717,
+        414,
+        1412,
+        734
+      ],
+      "dimensions": [
+        695,
+        320
+      ],
+      "sha256": "a43ca35a6d851c11fd80de7f00a2662c3fcd0b5fa5247450dab4657caa8e3491",
+      "panel_background_dimensions": [
+        236,
+        148.234
+      ],
+      "horizontal_extent_visible_with_current_cover_percent": 73.3
+    },
+    {
+      "file": "communaute.png",
+      "crop": [
+        1433,
+        414,
+        2126,
+        734
+      ],
+      "dimensions": [
+        693,
+        320
+      ],
+      "sha256": "31ea1c50bf37bc3d4e80b96692e597f15633341bc1aeee6e1a3ffc8717945cc6",
+      "panel_background_dimensions": [
+        236,
+        148.234
+      ],
+      "horizontal_extent_visible_with_current_cover_percent": 73.52
+    }
+  ]
+}
