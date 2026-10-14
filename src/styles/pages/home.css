@@ -377,14 +377,22 @@ body {
   }
 }
 
-/* V0.4.3: restore lobby background without UI screenshots in foreground */
+/* Authentic SCUM scene supplied in main (the reference filename has two .png
+   extensions). Only the painted backdrop changes; validated UI bounds stay fixed. */
 .app[data-bg="home"]::before {
   background-image:
     linear-gradient(90deg, rgba(4, 7, 10, 0.16) 0%, rgba(4, 7, 10, 0) 55%),
-    url("../../../assets/images/home-background.jpg") !important;
+    url("../../../docs/references/SCUM_Lobby_Original.png.png") !important;
+  inset: clamp(0px, 3.04vh, 26px) 0 32px;
   background-position: center center !important;
-  background-size: cover !important;
+  background-size: 100% 100% !important;
   opacity: 1 !important;
+}
+@media (max-width: 780px) {
+  .app[data-bg="home"]::before {
+    background-size: cover !important;
+    background-position: right center !important;
+  }
 }
 .app[data-bg="home"] .home-session-body {
   align-items: stretch !important;
