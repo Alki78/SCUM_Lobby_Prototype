@@ -1,4 +1,5 @@
-/* V0.4.2 — ACCUEIL UNIQUEMENT : référence Lobby_Accueil_v1, responsive sans défilement */
+/* Accueil — géométrie de Lobby_Accueil_v1 (1837 × 856).
+   Les ressources, polices, couleurs et pictogrammes restent ceux de V0.4.3. */
 html,
 body {
   overflow-x: hidden;
@@ -11,9 +12,34 @@ body {
   flex-direction: column;
 }
 .app[data-bg="home"] header {
-  flex: 0 0 79px;
-  min-height: 79px;
-  height: 79px;
+  flex: 0 0 77px;
+  min-height: 77px;
+  height: 77px;
+  padding-inline: clamp(14px, 3.1vw, 57px) clamp(14px, 4.3vw, 79px);
+}
+/* Dimensions réservées aux éléments de la navigation sur l’Accueil. */
+.app[data-bg="home"] .logo {
+  width: clamp(115px, 13vw, 239px);
+}
+.app[data-bg="home"] nav {
+  flex: 0 1 auto;
+  width: 52.1vw;
+  max-width: 957px;
+  display: grid;
+  grid-template-columns: 135fr 120fr 159fr 135fr 154fr 124fr 130fr;
+}
+.app[data-bg="home"] nav button {
+  padding-inline: 8px;
+}
+.app[data-bg="home"] .profile-avatar {
+  width: 54px;
+  height: 54px;
+}
+.app[data-bg="home"] .profile-identity {
+  min-width: 110px;
+}
+.app[data-bg="home"] .profile-divider {
+  height: 77px;
 }
 .app[data-bg="home"] .wrap {
   flex: 1 1 auto;
@@ -22,19 +48,20 @@ body {
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: clamp(12px, 1.55vh, 19px) clamp(20px, 3.4vw, 64px)
-    clamp(12px, 1.55vh, 19px) !important;
+  padding: clamp(16px, 3.04vh, 26px) clamp(20px, 3.54vw, 65px)
+    clamp(12px, 2.11vh, 18px) !important;
 }
 .app[data-bg="home"] .footer {
   position: relative;
   bottom: auto;
-  flex: 0 0 47px;
-  height: 47px;
-  min-height: 47px;
+  flex: 0 0 42px;
+  height: 42px;
+  min-height: 42px;
+  padding-inline: 4%;
 }
 .app[data-bg="home"] .home-v04 {
   display: grid;
-  grid-template-columns: minmax(0, 42%) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 43%) minmax(0, 1fr);
   gap: 20px;
   height: 100%;
   min-height: 0;
@@ -47,7 +74,7 @@ body {
 }
 .app[data-bg="home"] .home-stack {
   display: grid;
-  grid-template-rows: minmax(0, 1.12fr) minmax(0, 1.08fr) minmax(0, 0.64fr);
+  grid-template-rows: minmax(0, 264fr) minmax(0, 254fr) minmax(0, 150fr);
   gap: 12px;
   min-height: 0;
   height: 100%;
@@ -57,11 +84,14 @@ body {
   height: 100%;
   min-height: 0;
   margin: 0;
-  padding: 13px 16px;
+  padding: 11px 21px 22px 18px;
   background: rgba(7, 11, 15, 0.88);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+.app[data-bg="home"] .home-session > .home-label {
+  margin-left: -4px;
 }
 .app[data-bg="home"] .home-label {
   font-size: clamp(11px, 0.83vw, 14px);
@@ -73,11 +103,11 @@ body {
 }
 .app[data-bg="home"] .home-session-body {
   display: grid;
-  grid-template-columns: minmax(0, 49%) minmax(0, 1fr);
-  gap: clamp(10px, 1.2vw, 22px);
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr);
+  gap: clamp(12px, 1.31vw, 24px);
   flex: 1;
   min-height: 0;
-  margin-top: 12px;
+  margin-top: 15px;
   align-items: stretch;
 }
 .app[data-bg="home"] .home-session-art {
@@ -113,11 +143,12 @@ body {
   width: 100%;
   padding: 11px 7px;
   font-size: clamp(11px, 0.95vw, 15px);
+  height: 48px;
 }
 .app[data-bg="home"] .home-news-v04 {
   height: 100%;
   min-height: 0;
-  padding: 12px 17px;
+  padding: 10px 21px 12px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -138,6 +169,9 @@ body {
   align-items: center;
   gap: 10px;
 }
+.app[data-bg="home"] .home-news-top .home-label {
+  margin-left: -7px;
+}
 .app[data-bg="home"] .home-news-date {
   font-size: 11px;
   color: #aab1b8;
@@ -146,7 +180,7 @@ body {
 .app[data-bg="home"] .home-news-v04 h2 {
   font-size: clamp(18px, 1.55vw, 26px);
   line-height: 1.1;
-  margin: 7px 0 7px;
+  margin: 12px 0 7px;
 }
 .app[data-bg="home"] .home-news-v04 p {
   font-size: clamp(11px, 0.85vw, 14px);
@@ -164,13 +198,18 @@ body {
 }
 .app[data-bg="home"] .home-news-controls .btn {
   padding: 7px 11px;
+  height: 44px;
+  min-width: 53px;
   font-size: clamp(10px, 0.8vw, 13px);
+}
+.app[data-bg="home"] .home-news-controls .btn:nth-child(2) {
+  min-width: 205px;
 }
 .app[data-bg="home"] .home-news-dots {
   display: flex;
   gap: 8px;
   justify-content: center;
-  margin-top: 7px;
+  margin-top: 10px;
 }
 .app[data-bg="home"] .home-news-dots span {
   height: 6px;
@@ -199,7 +238,7 @@ body {
   min-height: 0;
   height: 100%;
   overflow: hidden;
-  padding: 12px 10px;
+  padding: 12px 17px 15px;
   background:
     linear-gradient(0deg, #06090df5 0%, #06090d10 90%),
     url("../../../assets/images/promo-battleground.jpg") center/cover no-repeat;
@@ -224,8 +263,8 @@ body {
 }
 .app[data-bg="home"] .home-promo-v04 .promo span {
   position: absolute;
-  right: 10px;
-  bottom: 11px;
+  right: 16px;
+  bottom: 16px;
 }
 @media (max-width: 1100px) {
   .app[data-bg="home"] .home-v04 {
@@ -242,12 +281,49 @@ body {
     overflow: visible;
   }
   .app[data-bg="home"] header {
+    display: grid;
+    grid-template-columns: 115px minmax(0, 1fr);
+    grid-template-rows: 60px 46px;
     height: auto;
+    min-height: 106px;
     flex-basis: auto;
+    padding-inline: 14px;
+  }
+  .app[data-bg="home"] .logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 115px;
+  }
+  .app[data-bg="home"] nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex;
+    width: 100%;
+    max-width: none;
+    height: 46px;
+  }
+  .app[data-bg="home"] nav button {
+    flex: 0 0 auto;
+  }
+  .app[data-bg="home"] .profile {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+  .app[data-bg="home"] .profile-avatar {
+    height: 32px;
+    width: 32px;
+  }
+  .app[data-bg="home"] .profile-identity {
+    min-width: 0;
+  }
+  .app[data-bg="home"] .profile-divider {
+    height: 45px;
   }
   .app[data-bg="home"] .wrap {
     overflow: visible;
     flex: 1;
+    padding: 18px 14px !important;
   }
   .app[data-bg="home"] .home-v04 {
     grid-template-columns: 1fr;
@@ -255,13 +331,29 @@ body {
   }
   .app[data-bg="home"] .home-stack {
     height: auto;
-    grid-template-rows: 245px 235px 160px;
+    grid-template-rows: minmax(260px, auto) minmax(235px, auto) minmax(
+        160px,
+        auto
+      );
+    overflow: visible;
   }
   .app[data-bg="home"] .home-session-body {
-    grid-template-columns: 43% 1fr;
+    grid-template-columns: minmax(0, 43fr) minmax(0, 57fr);
+    gap: 12px;
+  }
+  .app[data-bg="home"] .home-news-controls .btn:nth-child(2) {
+    min-width: 160px;
+  }
+  .app[data-bg="home"] .home-promo-v04 .promo {
+    padding-inline: 10px;
   }
   .app[data-bg="home"] .footer {
     position: relative;
+    height: auto;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    padding: 10px 14px;
   }
 }
 @media (max-height: 710px) and (min-width: 781px) {
@@ -301,7 +393,7 @@ body {
   justify-content: flex-start !important;
   align-self: stretch !important;
   height: 100% !important;
-  padding: 2px 0 0 !important;
+  padding: 4px 0 0 !important;
   min-height: 0 !important;
 }
 .app[data-bg="home"] .home-session-details h2 {
@@ -316,6 +408,6 @@ body {
     margin-bottom: 4px !important;
   }
   .app[data-bg="home"] .home-meta {
-    margin: 2px 0 !important;
+    margin: 1px 0 !important;
   }
 }

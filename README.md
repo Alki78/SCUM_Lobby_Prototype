@@ -116,8 +116,10 @@ PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm test
 
 Les tests compilent l'application puis vérifient :
 
-- le rendu pixel par pixel face au HTML V0.4.3, dans le même navigateur,
-  à 1837 × 856, 1366 × 768, 1024 × 600 et 390 × 844 ;
+- le rendu des autres rubriques pixel par pixel face au HTML V0.4.3, dans le
+  même navigateur, à 1837 × 856, 1366 × 768, 1024 × 600 et 390 × 844 ;
+- la géométrie de l’Accueil selon la maquette validée, avec conservation des
+  polices, couleurs, ressources et interactions ;
 - toutes les rubriques et leurs sous-écrans, y compris Crédits ;
 - les parcours de navigation, filtres, favoris, options, dialogues,
   matchmaking simulé et boutique ;
@@ -136,3 +138,7 @@ npm run format
 Les [limitations de la référence](docs/migration-v043.md) sont conservées pour
 éviter de mêler réorganisation technique et corrections fonctionnelles ou
 visuelles.
+
+La [première correction de géométrie de l’Accueil](docs/reviews/home-geometry/README.md)
+contient les mesures et captures avant/après. Les finitions graphiques restent
+à traiter séparément.
