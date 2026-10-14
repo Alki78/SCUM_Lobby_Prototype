@@ -1,0 +1,112 @@
+[
+  {
+    "id": "lobby-background",
+    "file": "lobby-background.jpg",
+    "sha256": "635f5419a464c5e9097907ea556f95b30741b33b5abf175a4322425101f94855"
+  },
+  {
+    "id": "solo-background",
+    "file": "solo-background.jpg",
+    "sha256": "a0e9a0154f1a965a8dc3811e9eed1d224cf937711c2d7cab915b57bac664d43b"
+  },
+  {
+    "id": "battleground-background",
+    "file": "battleground-background.jpg",
+    "sha256": "11441cb0fdbe42adc9ea0e5e4ac18f978990de7eb47e5dbd882f2bcb045198e6"
+  },
+  {
+    "id": "servers-background",
+    "file": "servers-background.jpg",
+    "sha256": "f60f84f1b235ad5fd2d99f8f26aacc80fed4419e52372e73b09c666f7ea780c3"
+  },
+  {
+    "id": "direct-background",
+    "file": "direct-background.jpg",
+    "sha256": "8b83dbed89251570ae107011f488f1ea5ff463e2fb9c3cad7f5ca422e16f90d8"
+  },
+  {
+    "id": "rent-background",
+    "file": "rent-background.jpg",
+    "sha256": "4e7d09b53b3139b4ef3068093f9ddd0fbead9385fb3bf9f0088c32811bcada9a"
+  },
+  {
+    "id": "options-background",
+    "file": "options-background.jpg",
+    "sha256": "9f394458d1ab72a12c8af1bd7185785950616761c5ca3f021110710977dccdba"
+  },
+  {
+    "id": "infos-background",
+    "file": "infos-background.jpg",
+    "sha256": "5640212132cbce1acb849749cc7ed8d911d87c15d0f1051336562ffb0b273d51"
+  },
+  {
+    "id": "last-session",
+    "file": "last-session.jpg",
+    "sha256": "b558125b697c79a6ced25eea977f0629900e6856f6c2caf95391c4e5ca762295"
+  },
+  {
+    "id": "home-news",
+    "file": "home-news.jpg",
+    "sha256": "4b68c50fcfcf8bca759d05841528f3366fc273a718275b52838a2b097f9f41b5"
+  },
+  {
+    "id": "promo-battleground",
+    "file": "promo-battleground.jpg",
+    "sha256": "9b9b95c6d6051b6061f44487d5f9a38583d70c6a54a88222f400ee84f0dc8d0a"
+  },
+  {
+    "id": "promo-dlc",
+    "file": "promo-dlc.jpg",
+    "sha256": "b71d60b2653dbd186ac5e62c1971a42661ee84035b5c1ee32362b61b60999562"
+  },
+  {
+    "id": "promo-community",
+    "file": "promo-community.jpg",
+    "sha256": "a60319c795b05fc4926ae51c40542311846ebdfb95400dd3516acd9f070bda45"
+  },
+  {
+    "id": "home-background",
+    "file": "home-background.jpg",
+    "sha256": "1fef201b575551c46dfeff502f96cc5e0fb2f04642a3ef12491be94ed94ae386"
+  },
+  {
+    "id": "shop-hero",
+    "file": "shop-hero.jpg",
+    "sha256": "a8908dae7a824c91a3765d2147a7082ef926edbb81af950337db9a93ef4d0479"
+  },
+  {
+    "id": "shop-angler",
+    "file": "shop-angler.jpg",
+    "sha256": "86a0d551588b0c6e6011cca7f64241f6e257538bf07d2c98b8d7737da8c8c9e3"
+  },
+  {
+    "id": "shop-stalker",
+    "file": "shop-stalker.jpg",
+    "sha256": "96b7f59237a4dbddbac668d811d0380b05cd890cf9066474a064580590410dc2"
+  },
+  {
+    "id": "shop-apex",
+    "file": "shop-apex.jpg",
+    "sha256": "d0751da53c18bc1c60981a4c712519c6d8cb28b64d015cc484035752f79b23c6"
+  },
+  {
+    "id": "shop-supporter",
+    "file": "shop-supporter.jpg",
+    "sha256": "801bcc4c04f9848a3ecd191745ed9331b72e2b636bdaf96b9e163eb1ab27d29c"
+  },
+  {
+    "id": "shop-detail",
+    "file": "shop-detail.jpg",
+    "sha256": "abf859373d935657c7c5f077c0faecb70022e96475293cd1d62398636d8737c3"
+  },
+  {
+    "id": "logo",
+    "file": "logo.png",
+    "sha256": "53ac772732652227a3da1a4821717ee6650f51f0245972a0095e4426ac4fa887"
+  },
+  {
+    "id": "avatar",
+    "file": "avatar.png",
+    "sha256": "f9b0e392be075a4aa11400ecc26665e092e5e6c9a4c5d89b03979379aad70a32"
+  }
+]
