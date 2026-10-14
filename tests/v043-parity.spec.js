@@ -1,3 +1,4 @@
+import { assertHomeGeometry } from "./helpers/home-geometry.js";
 import { test, expect } from "@playwright/test";
 import { readFile, readdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
@@ -95,6 +96,12 @@ const side = (label) => (page) =>
 
 async function samePixels(pair, label, testInfo) {
   await sameBehavior(pair);
+  // Home now follows the approved geometry. All other screens still compare
+  // pixel for pixel with V0.4.3; home keeps the same behavior assertions.
+  if (await pair.candidate.locator('.app[data-bg="home"]').count()) {
+    await assertHomeGeometry(pair.candidate);
+    return;
+  }
   const options = { animations: "disabled" };
   const expected = await pair.reference.screenshot(options);
   const actual = await pair.candidate.screenshot(options);
