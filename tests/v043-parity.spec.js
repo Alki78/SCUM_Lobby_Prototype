@@ -42,20 +42,32 @@ async function openPair(browser, target, viewport) {
 }
 
 async function visibleState(page) {
-  return page.evaluate(() => ({
-    text: document.querySelector("#app").innerText,
-    fields: [...document.querySelectorAll("input,select")].map((element) => ({
-      tag: element.tagName,
-      value: element.value,
-      checked: element.checked ?? null,
-      disabled: element.disabled,
-    })),
-    buttons: [...document.querySelectorAll("button")].map((element) => ({
-      text: element.textContent,
-      disabled: element.disabled,
-      active: element.classList.contains("active"),
-    })),
-  }));
+  return page.evaluate(() => {
+    const home = Boolean(document.querySelector('.app[data-bg="home"]'));
+    const text = (value) =>
+      home
+        ? value
+            .replace(/[⌖♟▣▶↗]/gu, "")
+            .split("\n")
+            .map((line) => line.trim())
+            .filter(Boolean)
+            .join("\n")
+        : value;
+    return {
+      text: text(document.querySelector("#app").innerText),
+      fields: [...document.querySelectorAll("input,select")].map((element) => ({
+        tag: element.tagName,
+        value: element.value,
+        checked: element.checked ?? null,
+        disabled: element.disabled,
+      })),
+      buttons: [...document.querySelectorAll("button")].map((element) => ({
+        text: text(element.textContent),
+        disabled: element.disabled,
+        active: element.classList.contains("active"),
+      })),
+    };
+  });
 }
 
 async function sameBehavior(pair) {
@@ -86,7 +98,15 @@ const nav = (label) => (page) =>
 const button = (label) => (page) =>
   clickForComparison(
     page,
-    page.getByRole("button", { name: label, exact: true }),
+    page.getByRole("button", {
+      name:
+        label === "▶ CONTINUER"
+          ? /^(?:▶ )?CONTINUER$/
+          : label === "VOIR LES DÉTAILS ↗"
+            ? /^VOIR LES DÉTAILS(?: ↗)?$/
+            : label,
+      exact: true,
+    }),
   );
 const side = (label) => (page) =>
   clickForComparison(

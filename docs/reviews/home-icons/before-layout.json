@@ -1,0 +1,848 @@
+[
+  {
+    "viewport": [
+      1837,
+      856
+    ],
+    "items": [
+      {
+        "selector": ".home-session",
+        "text": "DERNIÈRE SESSIONSCUM Official Server #1Survie · Multijoueur⌖ ÎLE DE SCUM♟ 42 / 64 JOUEURS▣ 18 sept. 2024 · 3 h 27 min▶ CONTINUER",
+        "rect": [
+          65,
+          103,
+          734,
+          264.390625
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      },
+      {
+        "selector": ".home-news-v04",
+        "text": "COMMUNICATION OFFICIELLE18 sept. 2024Notes de mise à jourConsultez les changements, améliorations et corrections publiés officiellement.←VOIR LES DÉTAILS ↗→",
+        "rect": [
+          65,
+          379.390625,
+          734,
+          254.375
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      },
+      {
+        "selector": ".home-news-controls .btn:nth-child(2)",
+        "text": "VOIR LES DÉTAILS ↗",
+        "rect": [
+          329.5,
+          560.765625,
+          205,
+          44
+        ],
+        "fontSize": "13px",
+        "glyph": {
+          "x": 490.78125,
+          "y": 575.265625,
+          "width": 10.0625,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".home-session-details .btn",
+        "text": "▶ CONTINUER",
+        "rect": [
+          461.421875,
+          296.390625,
+          315.578125,
+          48
+        ],
+        "fontSize": "15px",
+        "glyph": {
+          "x": 561.53125,
+          "y": 311.390625,
+          "width": 19.015625,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "⌖ ÎLE DE SCUM",
+        "rect": [
+          461.421875,
+          211.078125,
+          315.578125,
+          22
+        ],
+        "fontSize": "13px",
+        "glyph": {
+          "x": 461.421875,
+          "y": 213.078125,
+          "width": 9.765625,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "♟ 42 / 64 JOUEURS",
+        "rect": [
+          461.421875,
+          241.078125,
+          315.578125,
+          15
+        ],
+        "fontSize": "13px",
+        "glyph": {
+          "x": 461.421875,
+          "y": 241.078125,
+          "width": 16.234375,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "▣ 18 sept. 2024 · 3 h 27 min",
+        "rect": [
+          461.421875,
+          264.078125,
+          315.578125,
+          15
+        ],
+        "fontSize": "13px",
+        "glyph": {
+          "x": 461.421875,
+          "y": 264.078125,
+          "width": 12.296875,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          274,
+          761,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 274,
+          "y": 761,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          522,
+          761,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 522,
+          "y": 761,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          770,
+          761,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 770,
+          "y": 761,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "BATTLEGROUND",
+        "rect": [
+          83,
+          746,
+          124.71875,
+          17
+        ],
+        "fontSize": "15px",
+        "glyph": {
+          "x": 83,
+          "y": 746,
+          "width": 10.84375,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "DLC",
+        "rect": [
+          331,
+          746,
+          30.828125,
+          17
+        ],
+        "fontSize": "15px",
+        "glyph": {
+          "x": 331,
+          "y": 746,
+          "width": 10.84375,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "COMMUNAUTÉ",
+        "rect": [
+          579,
+          746,
+          110,
+          17
+        ],
+        "fontSize": "15px",
+        "glyph": {
+          "x": 579,
+          "y": 746,
+          "width": 10.84375,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "ÉVÉNEMENTS SPÉCIAUX",
+        "rect": [
+          83,
+          768,
+          134.484375,
+          12
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 83,
+          "y": 768,
+          "width": 7.34375,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "CONTENUS ADDITIONNELS",
+        "rect": [
+          331,
+          768,
+          145.46875,
+          12
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 331,
+          "y": 768,
+          "width": 7.953125,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "ACTUALITÉS ET LIENS UTILES",
+        "rect": [
+          579,
+          768,
+          161.1875,
+          12
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 579,
+          "y": 768,
+          "width": 7.34375,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".home-news-dots",
+        "text": "",
+        "rect": [
+          87,
+          614.765625,
+          690,
+          6
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "items": [
+      {
+        "selector": ".home-session",
+        "text": "DERNIÈRE SESSIONSCUM Official Server #1Survie · Multijoueur⌖ ÎLE DE SCUM♟ 42 / 64 JOUEURS▣ 18 sept. 2024 · 3 h 27 min▶ CONTINUER",
+        "rect": [
+          48.34375,
+          100.34375,
+          545.796875,
+          231.375
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      },
+      {
+        "selector": ".home-news-v04",
+        "text": "COMMUNICATION OFFICIELLE18 sept. 2024Notes de mise à jourConsultez les changements, améliorations et corrections publiés officiellement.←VOIR LES DÉTAILS ↗→",
+        "rect": [
+          48.34375,
+          343.71875,
+          545.796875,
+          222.609375
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      },
+      {
+        "selector": ".home-news-controls .btn:nth-child(2)",
+        "text": "VOIR LES DÉTAILS ↗",
+        "rect": [
+          218.75,
+          493.328125,
+          205,
+          44
+        ],
+        "fontSize": "10.928px",
+        "glyph": {
+          "x": 370.953125,
+          "y": 509.328125,
+          "width": 8.484375,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".home-session-details .btn",
+        "text": "▶ CONTINUER",
+        "rect": [
+          342.453125,
+          260.8125,
+          229.6875,
+          48
+        ],
+        "fontSize": "12.977px",
+        "glyph": {
+          "x": 407.203125,
+          "y": 277.3125,
+          "width": 16.484375,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "⌖ ÎLE DE SCUM",
+        "rect": [
+          342.453125,
+          195.8125,
+          229.6875,
+          19
+        ],
+        "fontSize": "10.928px",
+        "glyph": {
+          "x": 342.453125,
+          "y": 197.8125,
+          "width": 8.1875,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "♟ 42 / 64 JOUEURS",
+        "rect": [
+          342.453125,
+          222.8125,
+          229.6875,
+          13
+        ],
+        "fontSize": "10.928px",
+        "glyph": {
+          "x": 342.453125,
+          "y": 222.8125,
+          "width": 13.625,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "▣ 18 sept. 2024 · 3 h 27 min",
+        "rect": [
+          342.453125,
+          243.8125,
+          229.6875,
+          13
+        ],
+        "fontSize": "10.928px",
+        "glyph": {
+          "x": 342.453125,
+          "y": 243.8125,
+          "width": 10.3125,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          194.609375,
+          674.78125,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 194.609375,
+          "y": 674.78125,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          379.875,
+          674.78125,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 379.875,
+          "y": 674.78125,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          565.140625,
+          674.78125,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 565.140625,
+          "y": 674.78125,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "BATTLEGROUND",
+        "rect": [
+          66.34375,
+          662.78125,
+          106.65625,
+          15
+        ],
+        "fontSize": "12.8404px",
+        "glyph": {
+          "x": 66.34375,
+          "y": 662.78125,
+          "width": 9.265625,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "DLC",
+        "rect": [
+          251.609375,
+          662.78125,
+          26.375,
+          15
+        ],
+        "fontSize": "12.8404px",
+        "glyph": {
+          "x": 251.609375,
+          "y": 662.78125,
+          "width": 9.265625,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "COMMUNAUTÉ",
+        "rect": [
+          436.875,
+          651.78125,
+          94.078125,
+          15
+        ],
+        "fontSize": "12.8404px",
+        "glyph": {
+          "x": 436.875,
+          "y": 651.78125,
+          "width": 9.265625,
+          "height": 15
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "ÉVÉNEMENTS SPÉCIAUX",
+        "rect": [
+          66.34375,
+          682.78125,
+          116.71875,
+          11
+        ],
+        "fontSize": "9.562px",
+        "glyph": {
+          "x": 66.34375,
+          "y": 682.78125,
+          "width": 6.375,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "CONTENUS ADDITIONNELS",
+        "rect": [
+          251.609375,
+          682.78125,
+          126.25,
+          11
+        ],
+        "fontSize": "9.562px",
+        "glyph": {
+          "x": 251.609375,
+          "y": 682.78125,
+          "width": 6.90625,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "ACTUALITÉS ET LIENS UTILES",
+        "rect": [
+          436.875,
+          671.78125,
+          139.265625,
+          22
+        ],
+        "fontSize": "9.562px",
+        "glyph": {
+          "x": 436.875,
+          "y": 671.78125,
+          "width": 6.375,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".home-news-dots",
+        "text": "",
+        "rect": [
+          70.34375,
+          547.328125,
+          501.796875,
+          6
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "items": [
+      {
+        "selector": ".home-session",
+        "text": "DERNIÈRE SESSIONSCUM Official Server #1Survie · Multijoueur⌖ ÎLE DE SCUM♟ 42 / 64 JOUEURS▣ 18 sept. 2024 · 3 h 27 min▶ CONTINUER",
+        "rect": [
+          14,
+          125,
+          362,
+          260
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      },
+      {
+        "selector": ".home-news-v04",
+        "text": "COMMUNICATION OFFICIELLE18 sept. 2024Notes de mise à jourConsultez les changements, améliorations et corrections publiés officiellement.←VOIR LES DÉTAILS ↗→",
+        "rect": [
+          14,
+          397,
+          362,
+          235
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      },
+      {
+        "selector": ".home-news-controls .btn:nth-child(2)",
+        "text": "VOIR LES DÉTAILS ↗",
+        "rect": [
+          115,
+          559,
+          160,
+          44
+        ],
+        "fontSize": "10px",
+        "glyph": {
+          "x": 240.765625,
+          "y": 575.5,
+          "width": 7.8125,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".home-session-details .btn",
+        "text": "▶ CONTINUER",
+        "rect": [
+          177.859375,
+          314,
+          176.125,
+          48
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 223.1875,
+          "y": 331.5,
+          "width": 14.03125,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "⌖ ÎLE DE SCUM",
+        "rect": [
+          177.859375,
+          217.09375,
+          176.125,
+          17
+        ],
+        "fontSize": "10px",
+        "glyph": {
+          "x": 177.859375,
+          "y": 219.09375,
+          "width": 7.5,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "♟ 42 / 64 JOUEURS",
+        "rect": [
+          177.859375,
+          242.09375,
+          176.125,
+          11
+        ],
+        "fontSize": "10px",
+        "glyph": {
+          "x": 177.859375,
+          "y": 242.09375,
+          "width": 12.484375,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".home-meta",
+        "text": "▣ 18 sept. 2024 · 3 h 27 min",
+        "rect": [
+          177.859375,
+          261.09375,
+          176.125,
+          11
+        ],
+        "fontSize": "10px",
+        "glyph": {
+          "x": 177.859375,
+          "y": 261.09375,
+          "width": 9.453125,
+          "height": 11
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          99,
+          769,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 99,
+          "y": 769,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          223,
+          769,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 223,
+          "y": 769,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo span",
+        "text": "↗",
+        "rect": [
+          347,
+          769,
+          12,
+          18
+        ],
+        "fontSize": "16px",
+        "glyph": {
+          "x": 347,
+          "y": 769,
+          "width": 12,
+          "height": 17
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "BATTLEGROUND",
+        "rect": [
+          25,
+          751,
+          91.46875,
+          12
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 25,
+          "y": 751,
+          "width": 7.953125,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "DLC",
+        "rect": [
+          149,
+          751,
+          22.609375,
+          12
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 149,
+          "y": 751,
+          "width": 7.953125,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".promo strong",
+        "text": "COMMUNAUTÉ",
+        "rect": [
+          273,
+          751,
+          80.671875,
+          12
+        ],
+        "fontSize": "11px",
+        "glyph": {
+          "x": 273,
+          "y": 751,
+          "width": 7.953125,
+          "height": 12
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "ÉVÉNEMENTS SPÉCIAUX",
+        "rect": [
+          25,
+          768,
+          92,
+          20
+        ],
+        "fontSize": "9px",
+        "glyph": {
+          "x": 25,
+          "y": 768,
+          "width": 6.015625,
+          "height": 10
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "CONTENUS ADDITIONNELS",
+        "rect": [
+          149,
+          768,
+          92,
+          20
+        ],
+        "fontSize": "9px",
+        "glyph": {
+          "x": 149,
+          "y": 768,
+          "width": 6.5,
+          "height": 10
+        }
+      },
+      {
+        "selector": ".promo small",
+        "text": "ACTUALITÉS ET LIENS UTILES",
+        "rect": [
+          273,
+          768,
+          92,
+          20
+        ],
+        "fontSize": "9px",
+        "glyph": {
+          "x": 273,
+          "y": 768,
+          "width": 6.015625,
+          "height": 10
+        }
+      },
+      {
+        "selector": ".home-news-dots",
+        "text": "",
+        "rect": [
+          36,
+          613,
+          318,
+          6
+        ],
+        "fontSize": "16px",
+        "glyph": null
+      }
+    ]
+  }
+]

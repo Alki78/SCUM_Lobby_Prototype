@@ -1,0 +1,26 @@
+/* Emplacements des pictogrammes de l’Accueil, sans modifier les panneaux. */
+.app[data-bg="home"] .home-icon {
+  display: inline-block;
+  width: 0.75em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+.app[data-bg="home"] .home-icon--players {
+  width: 1.25em;
+}
+.app[data-bg="home"] .home-icon--calendar {
+  width: 0.945em;
+}
+.app[data-bg="home"] .home-icon--play {
+  width: calc(1.25em + 0.3px);
+}
+.app[data-bg="home"] .home-news-controls .home-icon {
+  width: calc(0.75em + 0.3px);
+}
+.app[data-bg="home"] .home-meta--location {
+  min-height: round(nearest, 1.7em, 1px);
+  padding-top: 2px;
+}
+.app[data-bg="home"] .home-meta:not(.home-meta--location) {
+  min-height: round(nearest, 1.149em, 1px);
+}
