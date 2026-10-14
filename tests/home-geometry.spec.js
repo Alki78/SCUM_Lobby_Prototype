@@ -54,7 +54,16 @@ async function visualProperties(page) {
         const styles = getComputedStyle(document.querySelector(selector));
         return [
           selector,
-          Object.fromEntries(properties.map((key) => [key, styles[key]])),
+          Object.fromEntries(
+            properties
+              // Le panorama validé change uniquement taille et position du fond.
+              .filter(
+                (key) =>
+                  selector !== ".home-news-v04" ||
+                  !["backgroundSize", "backgroundPosition"].includes(key),
+              )
+              .map((key) => [key, styles[key]]),
+          ),
         ];
       }),
     );

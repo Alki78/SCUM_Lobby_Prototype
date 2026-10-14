@@ -1,5 +1,10 @@
 # Illustrations de l’Accueil — proposition v1
 
+L’intégration de la simulation validée est maintenant préparée sur cette branche.
+Le bilan courant et les captures des trois résolutions sont dans
+[`integration/README.md`](integration/README.md). Les sections ci-dessous
+documentent les livraisons de préparation et de simulation, avant intégration.
+
 Revue préparée depuis `main` (`5d3b773`), sur la branche `review/home-illustrations-v1`.
 Source : `docs/references/Lobby_Accueil_Illustrations_Proposition_v1.png`, 2129 × 738 px.
 Référence de composition : `docs/references/Lobby_Accueil_v1.png`, 1837 × 856 px.
@@ -115,5 +120,6 @@ Le script utilise Chromium système (`/usr/bin/chromium`) ou le chemin fourni
 dans `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`. `SCUM_REVIEW_URL` permet d’indiquer
 une autre adresse locale du serveur Vite. Les styles temporaires persistent
 pendant le parcours du carrousel dans la page de revue, puis disparaissent
-avec la fermeture du navigateur. L’intégration définitive attend la validation
-graphique ; aucune fusion n’est effectuée.
+avec la fermeture du navigateur. Cette simulation a été validée graphiquement ;
+l’intégration utilise une feuille de style de production distincte. Aucune fusion
+n’est effectuée.
