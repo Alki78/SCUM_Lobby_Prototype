@@ -71,10 +71,11 @@ présents dans le décor, notamment les affiches, sont conservés.
 
 ## Organisation de la PR
 
-La PR #2 est encore ouverte sur GitHub au moment de cette intervention.
-Cette nouvelle PR est donc empilée sur `fix/home-geometry`, afin d’isoler le
-changement de fond et de ne pas présenter la géométrie validée comme une
-nouvelle modification. `main` a été récupérée dans la branche de travail pour
-obtenir la source. Aucune fusion dans `main` n’est effectuée.
+La PR #2 est fusionnée dans `main` au commit `067dd55`. Cette PR cible désormais
+`main` et présente uniquement le changement de fond, ses tests et sa
+documentation ; la géométrie validée ne figure plus dans son diff.
+La branche de travail intègre cette version de `main`. Aucune fusion de la
+PR #3 dans `main` n’est effectuée.
 
-Validation visuelle demandée avant toute autre finition.
+Validation visuelle obtenue pour le fond ; les finitions suivantes restent
+une intervention distincte.
