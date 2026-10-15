@@ -1,4 +1,5 @@
 import { assertHomeGeometry } from "./helpers/home-geometry.js";
+import { assertSoloGeometry } from "./helpers/solo-geometry.js";
 import { test, expect } from "@playwright/test";
 import { readFile, readdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
@@ -116,10 +117,15 @@ const side = (label) => (page) =>
 
 async function samePixels(pair, label, testInfo) {
   await sameBehavior(pair);
-  // Home now follows the approved geometry. All other screens still compare
-  // pixel for pixel with V0.4.3; home keeps the same behavior assertions.
+  // Accueil et SOLO ont leurs contrôles de géométrie propres. Les autres
+  // écrans restent comparés pixel par pixel à V0.4.3 ; les assertions de
+  // comportement restent actives sur toutes les rubriques.
   if (await pair.candidate.locator('.app[data-bg="home"]').count()) {
     await assertHomeGeometry(pair.candidate);
+    return;
+  }
+  if (await pair.candidate.locator('.app[data-bg="solo"]').count()) {
+    await assertSoloGeometry(pair.candidate);
     return;
   }
   const options = { animations: "disabled" };
