@@ -1,0 +1,88 @@
+/* Géométrie SOLO uniquement, d’après Lobby_Solo_v1 (1536 × 1024).
+   Ressources, fonds, cadrages CSS, couleurs, polices et pictogrammes conservés. */
+.app[data-bg="solo"] .wrap {
+  max-width: none;
+  padding: clamp(24px, 4.1vh, 42px) clamp(12px, 3.54vw, 65px) 80px;
+}
+.app[data-bg="solo"] .solo-layout {
+  --solo-panel-height: clamp(440px, 58.6vh, 600px);
+  width: min(74.8vw, 1147px);
+  max-width: 100%;
+  grid-template-columns: minmax(0, 596fr) minmax(0, 537fr);
+  gap: 14px;
+  align-items: start;
+}
+.app[data-bg="solo"] .solo-choices {
+  height: var(--solo-panel-height);
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.app[data-bg="solo"] .choice {
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+}
+.app[data-bg="solo"] .solo-detail {
+  height: var(--solo-panel-height);
+  min-width: 0;
+  padding: clamp(16px, 1.1vw, 20px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.app[data-bg="solo"] .solo-detail > * {
+  flex-shrink: 0;
+}
+.app[data-bg="solo"] .solo-detail > h2 {
+  margin-bottom: 10px;
+}
+.app[data-bg="solo"] .solo-detail > .illustration {
+  margin: 8px 0 14px;
+}
+.app[data-bg="solo"] .solo-detail > h3 {
+  margin: 0 0 6px;
+}
+.app[data-bg="solo"] .solo-detail > p {
+  margin: 0 0 8px;
+}
+.app[data-bg="solo"] .solo-detail > .btn.big {
+  max-width: 100%;
+  align-self: flex-start;
+  margin-top: auto;
+}
+.app[data-bg="solo"] .solo-detail[data-solo-view="continue"] > .btn.big {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  /* La navigation mobile existante occupe 75 + 45 + 75 px.
+     Réserver sa hauteur réelle dans SOLO conserve ses enfants aux mêmes
+     positions, tout en empêchant le profil d’intercepter les cartes. */
+  .app[data-bg="solo"] header {
+    height: 196px;
+  }
+  .app[data-bg="solo"] header .logo,
+  .app[data-bg="solo"] header .profile {
+    height: 75px;
+  }
+  .app[data-bg="solo"] .wrap {
+    padding: 16px 12px 80px;
+  }
+  .app[data-bg="solo"] .solo-layout {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .app[data-bg="solo"] .solo-choices {
+    height: auto;
+    grid-template-rows: repeat(4, 88px);
+    gap: 10px;
+  }
+  .app[data-bg="solo"] .choice {
+    scroll-margin-top: 212px;
+  }
+  .app[data-bg="solo"] .solo-detail {
+    height: auto;
+    min-height: 480px;
+    overflow: visible;
+  }
+}
