@@ -1,0 +1,418 @@
+[
+  {
+    "viewport": [
+      1837,
+      856
+    ],
+    "production": {
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 244.09375,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "illustration": {
+        "x": 696,
+        "y": 244.09375,
+        "width": 495,
+        "height": 175,
+        "bottom": 419.09375
+      },
+      "image": "url(\"http://127.0.0.1:5173/assets/images/solo-background.jpg\")",
+      "panelScrollHeight": 500,
+      "panelClientHeight": 500,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 856,
+      "pageWidth": 1837
+    },
+    "v1": {
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 495,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "illustration": {
+        "x": 696,
+        "y": 266.28125,
+        "width": 495,
+        "height": 228.234375,
+        "bottom": 494.515625
+      },
+      "image": "url(\"http://127.0.0.1:5173/assets/images/home-battleground.png\")",
+      "panelScrollHeight": 500,
+      "panelClientHeight": 500,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 856,
+      "pageWidth": 1837
+    },
+    "v2": {
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 495,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "illustration": {
+        "x": 696,
+        "y": 266.28125,
+        "width": 495,
+        "height": 228.234375,
+        "bottom": 494.515625
+      },
+      "image": "url(\"http://127.0.0.1:5173/docs/reviews/solo-tutorial-v2-parachute/tutoriel-largage-banniere.png\")",
+      "panelScrollHeight": 500,
+      "panelClientHeight": 500,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 856,
+      "pageWidth": 1837
+    },
+    "mobileDetail": null,
+    "v1ToV2OutsideIllustrationChangedPixels": 0,
+    "productionToV2OutsidePanelChangedPixels": 0,
+    "mobileOutsideIllustrationChangedPixels": null,
+    "imageNativeDimensions": [
+      1388,
+      640
+    ],
+    "otherSoloStatesIdentical": true,
+    "homeIdentical": true,
+    "dialogIdentical": true,
+    "noForm": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "production": {
+      "panel": {
+        "x": 592.453125,
+        "y": 174.484375,
+        "width": 477.65625,
+        "height": 450.046875,
+        "bottom": 624.53125
+      },
+      "button": {
+        "x": 609.453125,
+        "y": 551.53125,
+        "width": 244.09375,
+        "height": 56,
+        "bottom": 607.53125
+      },
+      "illustration": {
+        "x": 609.453125,
+        "y": 236.484375,
+        "width": 443.65625,
+        "height": 175,
+        "bottom": 411.484375
+      },
+      "image": "url(\"http://127.0.0.1:5173/assets/images/solo-background.jpg\")",
+      "panelScrollHeight": 448,
+      "panelClientHeight": 448,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 768,
+      "pageWidth": 1366
+    },
+    "v1": {
+      "panel": {
+        "x": 592.453125,
+        "y": 174.484375,
+        "width": 477.65625,
+        "height": 450.046875,
+        "bottom": 624.53125
+      },
+      "button": {
+        "x": 609.453125,
+        "y": 551.53125,
+        "width": 443.65625,
+        "height": 56,
+        "bottom": 607.53125
+      },
+      "illustration": {
+        "x": 609.453125,
+        "y": 248.71875,
+        "width": 443.65625,
+        "height": 204.5625,
+        "bottom": 453.28125
+      },
+      "image": "url(\"http://127.0.0.1:5173/assets/images/home-battleground.png\")",
+      "panelScrollHeight": 448,
+      "panelClientHeight": 448,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 768,
+      "pageWidth": 1366
+    },
+    "v2": {
+      "panel": {
+        "x": 592.453125,
+        "y": 174.484375,
+        "width": 477.65625,
+        "height": 450.046875,
+        "bottom": 624.53125
+      },
+      "button": {
+        "x": 609.453125,
+        "y": 551.53125,
+        "width": 443.65625,
+        "height": 56,
+        "bottom": 607.53125
+      },
+      "illustration": {
+        "x": 609.453125,
+        "y": 248.71875,
+        "width": 443.65625,
+        "height": 204.5625,
+        "bottom": 453.28125
+      },
+      "image": "url(\"http://127.0.0.1:5173/docs/reviews/solo-tutorial-v2-parachute/tutoriel-largage-banniere.png\")",
+      "panelScrollHeight": 448,
+      "panelClientHeight": 448,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 768,
+      "pageWidth": 1366
+    },
+    "mobileDetail": null,
+    "v1ToV2OutsideIllustrationChangedPixels": 0,
+    "productionToV2OutsidePanelChangedPixels": 0,
+    "mobileOutsideIllustrationChangedPixels": null,
+    "imageNativeDimensions": [
+      1388,
+      640
+    ],
+    "otherSoloStatesIdentical": true,
+    "homeIdentical": true,
+    "dialogIdentical": true,
+    "noForm": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "production": {
+      "panel": {
+        "x": 12,
+        "y": 652,
+        "width": 366,
+        "height": 480,
+        "bottom": 1132
+      },
+      "button": {
+        "x": 29,
+        "y": 1059,
+        "width": 244.09375,
+        "height": 56,
+        "bottom": 1115
+      },
+      "illustration": {
+        "x": 29,
+        "y": 714,
+        "width": 332,
+        "height": 175,
+        "bottom": 889
+      },
+      "image": "url(\"http://127.0.0.1:5173/assets/images/solo-background.jpg\")",
+      "panelScrollHeight": 478,
+      "panelClientHeight": 478,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": false,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 1212,
+      "pageWidth": 390
+    },
+    "v1": {
+      "panel": {
+        "x": 12,
+        "y": 652,
+        "width": 366,
+        "height": 480,
+        "bottom": 1132
+      },
+      "button": {
+        "x": 29,
+        "y": 1059,
+        "width": 332,
+        "height": 56,
+        "bottom": 1115
+      },
+      "illustration": {
+        "x": 29,
+        "y": 754.953125,
+        "width": 332,
+        "height": 153.078125,
+        "bottom": 908.03125
+      },
+      "image": "url(\"http://127.0.0.1:5173/assets/images/home-battleground.png\")",
+      "panelScrollHeight": 478,
+      "panelClientHeight": 478,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": false,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 1212,
+      "pageWidth": 390
+    },
+    "v2": {
+      "panel": {
+        "x": 12,
+        "y": 652,
+        "width": 366,
+        "height": 480,
+        "bottom": 1132
+      },
+      "button": {
+        "x": 29,
+        "y": 1059,
+        "width": 332,
+        "height": 56,
+        "bottom": 1115
+      },
+      "illustration": {
+        "x": 29,
+        "y": 754.953125,
+        "width": 332,
+        "height": 153.078125,
+        "bottom": 908.03125
+      },
+      "image": "url(\"http://127.0.0.1:5173/docs/reviews/solo-tutorial-v2-parachute/tutoriel-largage-banniere.png\")",
+      "panelScrollHeight": 478,
+      "panelClientHeight": 478,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": false,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 0,
+      "documentHeight": 1212,
+      "pageWidth": 390
+    },
+    "mobileDetail": {
+      "panel": {
+        "x": 12,
+        "y": 652,
+        "width": 366,
+        "height": 480,
+        "bottom": 1132
+      },
+      "button": {
+        "x": 29,
+        "y": 1059,
+        "width": 332,
+        "height": 56,
+        "bottom": 1115
+      },
+      "illustration": {
+        "x": 29,
+        "y": 754.953125,
+        "width": 332,
+        "height": 153.078125,
+        "bottom": 908.03125
+      },
+      "image": "url(\"http://127.0.0.1:5173/docs/reviews/solo-tutorial-v2-parachute/tutoriel-largage-banniere.png\")",
+      "panelScrollHeight": 478,
+      "panelClientHeight": 478,
+      "buttonInsidePanel": true,
+      "buttonAboveFooter": true,
+      "texts": [
+        "TUTORIEL",
+        "Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.",
+        "LANCER LE TUTORIEL"
+      ],
+      "pageScrollY": 368,
+      "documentHeight": 1212,
+      "pageWidth": 390
+    },
+    "v1ToV2OutsideIllustrationChangedPixels": 0,
+    "productionToV2OutsidePanelChangedPixels": 0,
+    "mobileOutsideIllustrationChangedPixels": 0,
+    "imageNativeDimensions": [
+      1388,
+      640
+    ],
+    "otherSoloStatesIdentical": true,
+    "homeIdentical": true,
+    "dialogIdentical": true,
+    "noForm": true,
+    "errors": []
+  }
+]
