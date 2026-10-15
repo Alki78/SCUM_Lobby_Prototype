@@ -1,0 +1,70 @@
+{
+  "base": "e737ead47075b9992e993533e8098a60629342cb",
+  "approved_review": "59bd04560808a311bd1a4e130300898e100069b5",
+  "screenshots": [
+    {
+      "capture": "1837x856",
+      "png_bytes_identical": true,
+      "sha256": "f2323f638dcc197d51f0f6d53859092ce61c1eaf22000069cff73ed7706c3aea"
+    },
+    {
+      "capture": "1366x768",
+      "png_bytes_identical": true,
+      "sha256": "6862da36e2c0ff2eeff7842374fd1a4d81828ae29278d888469acb588c355350"
+    },
+    {
+      "capture": "390x844",
+      "png_bytes_identical": true,
+      "sha256": "8b7a18c25b67bff77430097e3518b7db4d4b8e1800021dfd6c1602ac1b5e251a"
+    },
+    {
+      "capture": "detail-390x844",
+      "png_bytes_identical": true,
+      "sha256": "da26ab7fd28c58a7f3f5a5334c5f9d8b80c53ecd1307d968ab818f8783ab6d52"
+    }
+  ],
+  "standalone": {
+    "bytes": 17268352,
+    "sha256": "49c06c9a0a1bd3fc8d92eaec53adb9a92eee589241eba9a0952474b53f3562d7",
+    "files": [
+      "index.html"
+    ],
+    "unique_images": 31,
+    "external_script": false,
+    "external_css": false
+  },
+  "outside_panel_checks": [
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "changed_pixels": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "changed_pixels": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "changed_pixels": 0
+    }
+  ],
+  "checks": {
+    "full_suite": {
+      "passed": 47,
+      "failed": 0,
+      "skipped": 0,
+      "command": "PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium SCUM_NEW_GAME_CAPTURE_DIR=docs/reviews/solo-new-game-integration npm test"
+    },
+    "production_build": "passed",
+    "format_check": "passed",
+    "review_v2_files_unchanged": true
+  }
+}

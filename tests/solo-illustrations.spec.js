@@ -190,8 +190,8 @@ for (const reference of approvedLayouts) {
           await page.locator(".choice").nth(i).click();
           await assertSoloGeometry(page);
           const currentLayout = await layout(page);
-          if (i === 1) {
-            // Seul l'intérieur Sauvegardes a une nouvelle référence approuvée.
+          if (i === 1 || i === 2) {
+            // Sauvegardes et Nouvelle partie ont leurs captures approuvées propres.
             // Les cadres et cartes restent comparés à la géométrie de PR #9.
             const outer = (value) =>
               value.rects.filter((r) => r.selector !== ".solo-detail > *");

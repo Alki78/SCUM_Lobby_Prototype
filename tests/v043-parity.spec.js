@@ -394,7 +394,12 @@ test("ressources originales et export autonome", async () => {
     authenticHash,
     ...illustrationHashes,
     ...(await Promise.all(
-      ["nouvelle-partie", "tutoriel", "derniere-session"].map(async (slug) =>
+      [
+        "nouvelle-partie",
+        "tutoriel",
+        "derniere-session",
+        "nouvelle-partie-banniere",
+      ].map(async (slug) =>
         hash(await readFile(`assets/images/solo-${slug}.png`)),
       ),
     )),
