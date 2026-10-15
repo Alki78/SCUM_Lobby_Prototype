@@ -1,0 +1,393 @@
+{
+  "base": "5dd61923be6df5eb6e9b0cf28eb0f1c9e02d4985",
+  "viewport": [
+    1837,
+    856
+  ],
+  "states": [
+    {
+      "capture": "01-continuer.png",
+      "view": "continue",
+      "saveIndex": 0,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 601.703125,
+        "width": 495,
+        "height": 57,
+        "bottom": 658.703125
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 0,
+      "scrollHeight": 500,
+      "clientHeight": 500,
+      "panelText": "DERNIÈRE SESSION SOLO\nAlki\n\nBac à sable · Dernier personnage utilisé\n\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\n▶ CONTINUER LA PARTIE",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "02-continuer-demonstration.png",
+      "view": "continue",
+      "saveIndex": 0,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 601.703125,
+        "width": 495,
+        "height": 57,
+        "bottom": 658.703125
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 0,
+      "scrollHeight": 500,
+      "clientHeight": 500,
+      "panelText": "DERNIÈRE SESSION SOLO\nAlki\n\nBac à sable · Dernier personnage utilisé\n\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\n▶ CONTINUER LA PARTIE",
+      "dialogText": "MODE DÉMONSTRATION\n\nChargement de la partie solo\n\nFERMER",
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "03-sauvegardes-haut.png",
+      "view": "load",
+      "saveIndex": 0,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "buttonFullyInsidePanel": false,
+      "scrollTop": 0,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Alki\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "04-sauvegardes-selection.png",
+      "view": "load",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "buttonFullyInsidePanel": false,
+      "scrollTop": 0,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Prisonnier 02\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "05-sauvegardes-bas.png",
+      "view": "load",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 603.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 659.09375
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 92,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Prisonnier 02\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "06-sauvegardes-chargement.png",
+      "view": "load",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "buttonFullyInsidePanel": false,
+      "scrollTop": 0,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Prisonnier 02\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": "MODE DÉMONSTRATION\n\nChargement de la sauvegarde\n\nFERMER",
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "07-confirmer-suppression.png",
+      "view": "load",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "buttonFullyInsidePanel": false,
+      "scrollTop": 0,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Prisonnier 02\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": "SUPPRIMER LA SAUVEGARDE ?\n\nConfirmer la suppression de Survivante 03 ? Cette démonstration ne modifie aucun fichier.\n\nANNULER\nSIMULER LA SUPPRESSION",
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "08-suppression-simulee.png",
+      "view": "load",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "buttonFullyInsidePanel": false,
+      "scrollTop": 0,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Prisonnier 02\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": "MODE DÉMONSTRATION\n\nSuppression simulée\n\nFERMER",
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "09-sauvegardes-apres-suppression.png",
+      "view": "load",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "buttonFullyInsidePanel": false,
+      "scrollTop": 0,
+      "scrollHeight": 592,
+      "clientHeight": 500,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Prisonnier 02\n\nCHARGER CETTE SAUVEGARDE",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "10-nouvelle-partie.png",
+      "view": "new",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 272.125,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 0,
+      "scrollHeight": 500,
+      "clientHeight": 500,
+      "panelText": "NOUVELLE PARTIE\n\nIncarnez un prisonnier et embarquez sur l'île. Mettez à l'épreuve vos compétences de survie.\n\nCRÉER UN PERSONNAGE",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "11-creation-demonstration.png",
+      "view": "new",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 272.125,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 0,
+      "scrollHeight": 500,
+      "clientHeight": 500,
+      "panelText": "NOUVELLE PARTIE\n\nIncarnez un prisonnier et embarquez sur l'île. Mettez à l'épreuve vos compétences de survie.\n\nCRÉER UN PERSONNAGE",
+      "dialogText": "MODE DÉMONSTRATION\n\nCréation de personnage — écran du jeu non reproduit\n\nFERMER",
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "12-tutoriel.png",
+      "view": "tutorial",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 244.09375,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 0,
+      "scrollHeight": 500,
+      "clientHeight": 500,
+      "panelText": "TUTORIEL\n\nApprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.\n\nLANCER LE TUTORIEL",
+      "dialogText": null,
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    },
+    {
+      "capture": "13-tutoriel-demonstration.png",
+      "view": "tutorial",
+      "saveIndex": 1,
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 602.703125,
+        "width": 244.09375,
+        "height": 56,
+        "bottom": 658.703125
+      },
+      "buttonFullyInsidePanel": true,
+      "scrollTop": 0,
+      "scrollHeight": 500,
+      "clientHeight": 500,
+      "panelText": "TUTORIEL\n\nApprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.\n\nLANCER LE TUTORIEL",
+      "dialogText": "MODE DÉMONSTRATION\n\nTutoriel — lancement simulé\n\nFERMER",
+      "activeElement": "BODY",
+      "roleDialogCount": 0
+    }
+  ],
+  "observations": {
+    "escapeClosesDialog": false,
+    "firstTabAfterDialog": {
+      "tag": "BUTTON",
+      "text": "ACCUEIL",
+      "insideDialog": false
+    },
+    "backdropClosesDialog": false,
+    "clickEmptyPartOfRowSelects": false,
+    "deletingUnselectedSave": {
+      "selected": 1,
+      "dialog": {
+        "type": "delete",
+        "name": "Survivante 03"
+      }
+    },
+    "cancelPreservesThreeSaves": true,
+    "saveCountAfterSimulatedDelete": 3,
+    "continueAfterLoadingOtherSave": {
+      "selectedSaveIndex": 1,
+      "continueName": "Alki"
+    },
+    "stateAfterLeavingAndReturning": {
+      "solo": "tutorial",
+      "saveIndex": 1
+    },
+    "stateAfterReload": {
+      "tab": "home",
+      "solo": "continue",
+      "saveIndex": 0
+    }
+  },
+  "pageErrors": []
+}
