@@ -1,0 +1,49 @@
+{
+  "source": "docs/references/Lobby_Solo_Illustrations_Proposition_v1.png",
+  "source_sha256": "5b544dec4abafb183a1f1ac8fcb501d5d4f4e12f0b064272738478ede8b7a4b6",
+  "coordinates": "[left, top, right exclusive, bottom exclusive]",
+  "crops": [
+    {
+      "file": "nouvelle-partie.png",
+      "box": [
+        405,
+        432,
+        669,
+        550
+      ],
+      "dimensions": [
+        264,
+        118
+      ],
+      "sha256": "61617cab9f4f1cff69a07d8af625b3018b9f136f3170c168395784de604dd22c"
+    },
+    {
+      "file": "tutoriel.png",
+      "box": [
+        405,
+        569,
+        669,
+        690
+      ],
+      "dimensions": [
+        264,
+        121
+      ],
+      "sha256": "1a99e8e38d3f4d4057dab76d7a0424e1a028d61a348a20b9d72eedbf208e82c2"
+    },
+    {
+      "file": "derniere-session.png",
+      "box": [
+        708,
+        224,
+        1152,
+        383
+      ],
+      "dimensions": [
+        444,
+        159
+      ],
+      "sha256": "1f1d98c7f779f3cde9f4af50e9dc40a6351fa7f1749b7b71abf5e610673c5f7a"
+    }
+  ]
+}
