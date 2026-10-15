@@ -1,0 +1,88 @@
+{
+  "base": "1d77987",
+  "approved_review_commit": "23142a24ae7006d3048d3d4ec89830eb6f5065a2",
+  "captures": [
+    {
+      "capture": "development-1837x856.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-1837x856.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "2a2bd73d049e62f6d9c6b6772d7650314871d0fabf2b8d9804455660c2039f96"
+    },
+    {
+      "capture": "offline-1837x856.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-1837x856.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "2a2bd73d049e62f6d9c6b6772d7650314871d0fabf2b8d9804455660c2039f96"
+    },
+    {
+      "capture": "development-1366x768.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-1366x768.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "afcf8e416c86846ca3110d8fef5ad4bcb3ffa94140ea62414ce099322118408f"
+    },
+    {
+      "capture": "offline-1366x768.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-1366x768.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "afcf8e416c86846ca3110d8fef5ad4bcb3ffa94140ea62414ce099322118408f"
+    },
+    {
+      "capture": "development-390x844.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-390x844.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "16fb40b5c894f5f3001917073861e274e687fad14fdbc3c579775319b6de3735"
+    },
+    {
+      "capture": "offline-390x844.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-390x844.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "16fb40b5c894f5f3001917073861e274e687fad14fdbc3c579775319b6de3735"
+    },
+    {
+      "capture": "development-detail-390x844.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-detail-390x844.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "123d434611fa119c0597aa903c2c1bded1e2450a232550489b073b103397af60"
+    },
+    {
+      "capture": "offline-detail-390x844.png",
+      "approved": "docs/reviews/solo-tutorial-v2-parachute/tutoriel-detail-390x844.png",
+      "pixels_identical": true,
+      "png_bytes_identical": true,
+      "sha256": "123d434611fa119c0597aa903c2c1bded1e2450a232550489b073b103397af60"
+    }
+  ],
+  "illustration": {
+    "source": "docs/references/SCUM_Tutoriel_Largage_Reference.png",
+    "source_dimensions": [
+      1650,
+      928
+    ],
+    "source_sha256": "68dbda2a1eaadb2c307db32c7621856d70a60e33e3134157cdfd34353d6522ad",
+    "crop_box_exclusive": [
+      131,
+      140,
+      1519,
+      780
+    ],
+    "output": "tutoriel-largage-banniere.png",
+    "output_dimensions": [
+      1388,
+      640
+    ],
+    "output_sha256": "ff142477c18bc31524fb42cc1fbceaf5ce57e092f39c525db14e279259537a74",
+    "aspect_ratio": "694:320, identique à la composition v1",
+    "pixel_crop_identical": true,
+    "processing": "Découpe rectangulaire seule ; ni redimensionnement, ni retouche, ni génération.",
+    "hud": "Barre d'inventaire au bas de la source, vers y=867 et au-delà ; découpe arrêtée à y=780. Aucun HUD visible dans la découpe inspectée."
+  },
+  "production_asset": "assets/images/solo-tutoriel-largage-banniere.png",
+  "runtime_review_injection": false
+}

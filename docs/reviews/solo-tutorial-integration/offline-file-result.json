@@ -1,0 +1,27 @@
+{
+  "opened_as": "page.setContent des octets exacts de dist/index.html, sans réseau",
+  "direct_file_navigation": "ERR_BLOCKED_BY_ADMINISTRATOR — politique du navigateur cloud",
+  "offline": true,
+  "html_bytes": 18463207,
+  "html_sha256": "59161fb640d9eaad389584a78cd55122a5c9665378bbd4b8a02663833c9c77af",
+  "banner_sha256": "ff142477c18bc31524fb42cc1fbceaf5ce57e092f39c525db14e279259537a74",
+  "banner_native_dimensions": [
+    1388,
+    640
+  ],
+  "embedded_banner_exact": true,
+  "tabs_checked": [
+    "SOLO",
+    "MULTIJOUEUR",
+    "OPTIONS",
+    "DLC / SHOP",
+    "INFOS",
+    "CRÉDITS",
+    "ACCUEIL"
+  ],
+  "demo_and_close": true,
+  "file_navigation_attempts": 1,
+  "file_requests": 0,
+  "external_requests": 0,
+  "errors": []
+}

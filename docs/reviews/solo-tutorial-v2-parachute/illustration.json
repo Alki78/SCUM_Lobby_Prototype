@@ -1,0 +1,24 @@
+{
+  "source": "docs/references/SCUM_Tutoriel_Largage_Reference.png",
+  "source_dimensions": [
+    1650,
+    928
+  ],
+  "source_sha256": "68dbda2a1eaadb2c307db32c7621856d70a60e33e3134157cdfd34353d6522ad",
+  "crop_box_exclusive": [
+    131,
+    140,
+    1519,
+    780
+  ],
+  "output": "tutoriel-largage-banniere.png",
+  "output_dimensions": [
+    1388,
+    640
+  ],
+  "output_sha256": "ff142477c18bc31524fb42cc1fbceaf5ce57e092f39c525db14e279259537a74",
+  "aspect_ratio": "694:320, identique à la composition v1",
+  "pixel_crop_identical": true,
+  "processing": "Découpe rectangulaire seule ; ni redimensionnement, ni retouche, ni génération.",
+  "hud": "Barre d'inventaire au bas de la source, vers y=867 et au-delà ; découpe arrêtée à y=780. Aucun HUD visible dans la découpe inspectée."
+}
