@@ -146,3 +146,8 @@ contient les mesures et captures avant/après. Les finitions graphiques restent
 Le [fond authentique de l’Accueil](docs/reviews/home-background/README.md)
 utilise la capture SCUM fournie, embarquée sans retouche dans le HTML autonome.
 La géométrie validée de la PR #2 reste inchangée.
+
+Les [illustrations SOLO intégrées](docs/reviews/solo-illustrations-integration/README.md)
+reproduisent la simulation approuvée, avec le même fond authentique que l’Accueil,
+sans modifier la géométrie de la PR #7. Le dossier contient les captures aux trois
+résolutions et les détails des contrôles de l’export autonome hors ligne.

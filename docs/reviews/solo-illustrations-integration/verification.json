@@ -1,0 +1,47 @@
+{
+  "base_commit": "f97ab29",
+  "approved_review_commit": "f4ad0f04ca6fb0e4756352057c4895808f24e17e",
+  "screenshots": [
+    {
+      "viewport": "1837x856",
+      "all_png_bytes_identical": true,
+      "sha256": "521b50793a70e3287e7ca1a88e1197019001ecb8e987f7a588827e15a01da527"
+    },
+    {
+      "viewport": "1366x768",
+      "all_png_bytes_identical": true,
+      "sha256": "b43980c26ebc1975fdd8582877f537f19e5ceeeeda60af0aab3d55cf93106ded"
+    },
+    {
+      "viewport": "390x844",
+      "all_png_bytes_identical": true,
+      "sha256": "6c2676796de84443e161b3ccf17858be62a0c56d2786e58088554b3148d90ea5"
+    }
+  ],
+  "standalone": {
+    "bytes": 16921650,
+    "sha256": "e8197fe60406bceba4f5711afbdd470226e1c3caf44aaf9d53e3f50ef5b2f62f",
+    "files": [
+      "index.html"
+    ],
+    "unique_embedded_images": 30,
+    "external_script": false,
+    "external_stylesheet": false
+  },
+  "checks": {
+    "solo_geometry_and_illustrations": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "command": "PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium SCUM_CAPTURE_DIR=docs/reviews/solo-illustrations-integration npx playwright test tests/solo-illustrations.spec.js tests/solo-geometry.spec.js"
+    },
+    "remaining_suite": {
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "command": "PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm test -- --grep-invert SOLO"
+    },
+    "format_check": "passed",
+    "production_build": "passed"
+  }
+}

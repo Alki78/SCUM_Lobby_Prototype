@@ -14,7 +14,7 @@ export function renderSolo() {
   else
     body = `<h2>TUTORIEL</h2><div class="illustration"></div><p>Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.</p>${btn("LANCER LE TUTORIEL", "demoAction('Tutoriel — lancement simulé')", "red big")}`;
   shell(
-    `<h1>SOLO / BAC À SABLE</h1><div class="solo-layout"><div class="solo-choices">${soloNavigation.map(({ id, label: x, description }) => `<button class="choice ${state.solo === id ? "active" : ""}" onclick="state.solo='${id}';render()">${x}<span>${description}</span></button>`).join("")}</div><div class="panel solo-detail" data-solo-view="${state.solo}">${body}</div></div>`,
+    `<h1>SOLO / BAC À SABLE</h1><div class="solo-layout"><div class="solo-choices">${soloNavigation.map(({ id, label: x, description }) => `<button class="choice ${state.solo === id ? "active" : ""}" data-solo-action="${id}" onclick="state.solo='${id}';render()">${x}<span>${description}</span></button>`).join("")}</div><div class="panel solo-detail" data-solo-view="${state.solo}">${body}</div></div>`,
     "solo",
   );
 }
