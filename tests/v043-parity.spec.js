@@ -54,8 +54,32 @@ async function visibleState(page) {
             .filter(Boolean)
             .join("\n")
         : value;
+    const app = document.querySelector("#app");
+    const soloPanel = document.querySelector(".solo-layout > .panel");
+    let appText = app.innerText;
+    if (
+      soloPanel?.querySelector("h2")?.textContent === "CHARGER UNE SAUVEGARDE"
+    ) {
+      // Comparer les mêmes données et interactions ; le nouveau résumé visuel
+      // Sauvegardes est vérifié par ses tests de captures dédiés.
+      const names = [
+        ...soloPanel.querySelectorAll(".row > button:first-child"),
+      ].map((el) => el.textContent);
+      const selected = soloPanel.querySelector(
+        ".solo-save-name, p > b",
+      ).textContent;
+      appText = appText.replace(
+        soloPanel.innerText,
+        [
+          "CHARGER UNE SAUVEGARDE",
+          ...names,
+          selected,
+          "CHARGER CETTE SAUVEGARDE",
+        ].join("\n"),
+      );
+    }
     return {
-      text: text(document.querySelector("#app").innerText),
+      text: text(appText),
       fields: [...document.querySelectorAll("input,select")].map((element) => ({
         tag: element.tagName,
         value: element.value,

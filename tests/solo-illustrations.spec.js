@@ -189,7 +189,15 @@ for (const reference of approvedLayouts) {
         for (let i = 0; i < 4; i++) {
           await page.locator(".choice").nth(i).click();
           await assertSoloGeometry(page);
-          expect(await layout(page)).toEqual(reference.states[i]);
+          const currentLayout = await layout(page);
+          if (i === 1) {
+            // Seul l'intérieur Sauvegardes a une nouvelle référence approuvée.
+            // Les cadres et cartes restent comparés à la géométrie de PR #9.
+            const outer = (value) =>
+              value.rects.filter((r) => r.selector !== ".solo-detail > *");
+            expect(outer(currentLayout)).toEqual(outer(reference.states[i]));
+            expect(currentLayout.overflow).toBe(reference.states[i].overflow);
+          } else expect(currentLayout).toEqual(reference.states[i]);
           await expect(page.locator(".choice.active")).toHaveCount(1);
           expect(
             await page

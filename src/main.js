@@ -6,6 +6,7 @@ import "./styles/pages/home-illustrations.css";
 import "./styles/pages/home-icons.css";
 import "./styles/pages/solo.css";
 import "./styles/pages/solo-illustrations.css";
+import "./styles/pages/solo-saves.css";
 import { registerLegacyHandlers } from "./runtime/legacy-handlers.js";
 import { render } from "./navigation.js";
 

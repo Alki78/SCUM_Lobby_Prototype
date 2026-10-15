@@ -1,0 +1,70 @@
+{
+  "base": "5dd61923be6df5eb6e9b0cf28eb0f1c9e02d4985",
+  "approved_review": "de02154c7f6cd3cb755b4600cf2f2456a42b041c",
+  "screenshots": [
+    {
+      "capture": "prisonnier-02-390x844.png",
+      "png_bytes_identical": true,
+      "sha256": "4f9445d069c1de6dd5112f90e74d0937378e4aaa96baf69c9e84ccc44cda67a1"
+    },
+    {
+      "capture": "alki-390x844.png",
+      "png_bytes_identical": true,
+      "sha256": "355742a8fdaf6204bbbb5a24c6501575a0ddf4b3fb55d964f5a8073ed1dc2c92"
+    },
+    {
+      "capture": "alki-detail-390x844.png",
+      "png_bytes_identical": true,
+      "sha256": "b6ce0255f7722430a269233fb1160b5007ecc0a1a4ca8a0c1ac5db35fdef77cb"
+    },
+    {
+      "capture": "alki-1837x856.png",
+      "png_bytes_identical": true,
+      "sha256": "deaff49492e33e865bb257dd8b3370f5f9437f852c5673e521a5347e925a5ca7"
+    },
+    {
+      "capture": "alki-1366x768.png",
+      "png_bytes_identical": true,
+      "sha256": "21c80f7e2376e8eb22bcfa3ba389478e1068a3594214a108440dde505a0d940b"
+    },
+    {
+      "capture": "prisonnier-02-detail-390x844.png",
+      "png_bytes_identical": true,
+      "sha256": "9577288534c1ecac059489c83f76b7b7f89c7c30793c9abf865f36e3682c19aa"
+    },
+    {
+      "capture": "prisonnier-02-1366x768.png",
+      "png_bytes_identical": true,
+      "sha256": "27f255b0734fad78cb50a86be52413b52a4d4ac5e448a6634fc44eb9fad4bd46"
+    },
+    {
+      "capture": "prisonnier-02-1837x856.png",
+      "png_bytes_identical": true,
+      "sha256": "14d7307e9337456c75eff36a0c5f4c165e88d2d6a0f622da6cc180a2b870dae2"
+    }
+  ],
+  "standalone": {
+    "bytes": 16924289,
+    "sha256": "f67231979e8828899482cc0fef236c2850e4a81c1b8802db1320608b47a0562b",
+    "files": [
+      "index.html"
+    ],
+    "unique_images": 30,
+    "external_script": false,
+    "external_css": false
+  },
+  "checks": {
+    "solo_saves": {
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0
+    },
+    "remaining_suite": {
+      "passed": 40,
+      "failed": 0,
+      "skipped": 0
+    },
+    "production_build": "passed",
+    "format_check": "passed"
+  }
+}
