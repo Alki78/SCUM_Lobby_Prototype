@@ -93,9 +93,9 @@ for (const target of ["development", "standalone"]) {
           const layout = await assertSoloGeometry(page);
           expect(layout.choices).toEqual(initial.choices);
           if (viewport.width > 700) expect(layout.panel).toEqual(initial.panel);
-          // Sauvegardes et Nouvelle partie ont leurs captures approuvées propres.
-          expect(await palette(page, index === 1 || index === 2)).toEqual(
-            await palette(reference, index === 1 || index === 2),
+          // Les trois panneaux secondaires ont leurs captures approuvées propres.
+          expect(await palette(page, index !== 0)).toEqual(
+            await palette(reference, index !== 0),
           );
         }
         async function dialog(button, content) {

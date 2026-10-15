@@ -399,6 +399,7 @@ test("ressources originales et export autonome", async () => {
         "tutoriel",
         "derniere-session",
         "nouvelle-partie-banniere",
+        "tutoriel-largage-banniere",
       ].map(async (slug) =>
         hash(await readFile(`assets/images/solo-${slug}.png`)),
       ),

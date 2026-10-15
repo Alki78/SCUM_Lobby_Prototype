@@ -1,0 +1,248 @@
+{
+  "base": "1d77987",
+  "captures": [
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "home",
+      "state": null,
+      "rgba_sha256": "f1242e9ab23825ea03d9a561229c6c8774ef40c0e99caff7c38fd0ea6d095334"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "solo",
+      "state": "continue",
+      "rgba_sha256": "5f4a61120951b41a61172c1ed81df9de9957bb8da8f47d36e7ed66e418775fce"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "solo",
+      "state": "load",
+      "rgba_sha256": "5916058c5021ea11d28f5f28d2c9223073aff3d4ef293283d2c62228b8cc19a5"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "solo",
+      "state": "new",
+      "rgba_sha256": "9ab4604e0c5da337eae96b61be0452e85eafef5e2c2d36b417af6bc09d9ce375"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "multiplayer",
+      "state": null,
+      "rgba_sha256": "0eba3680c02234283d6e8e605a84a5ce016c06c381a856b9eaebe1e5549d0fe1"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "options",
+      "state": null,
+      "rgba_sha256": "dd9d3d49d3049209bf7b486c48ec589fb9839f46e61d9e6351d9abf4387d090a"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "shop",
+      "state": null,
+      "rgba_sha256": "01e711a6ca5d892b480c54e25f48b5ef93c750a62c48f3862f990804e18a5eb3"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "infos",
+      "state": null,
+      "rgba_sha256": "d4654cdd86732e2f85e874d0dc7d8bec1fb95472c5a50c7175790e7664c217a9"
+    },
+    {
+      "viewport": [
+        1837,
+        856
+      ],
+      "tab": "credits",
+      "state": null,
+      "rgba_sha256": "c04cea64c129d132b5e4af428b1b26976e0997f8a033fe9c94e0803b55d30055"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "home",
+      "state": null,
+      "rgba_sha256": "02799b702c6489ff28c089a6287e1442825d4a2dc5b9ac60cfdf7c8ee76b5131"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "solo",
+      "state": "continue",
+      "rgba_sha256": "8d72a61a74963741c640e150646406b57c37140f318ae2fe784db6a191d95e89"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "solo",
+      "state": "load",
+      "rgba_sha256": "83253b565d45c9e9b3d215f0179b5d4e1ec8a30c3699a8029515a8a714b37b54"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "solo",
+      "state": "new",
+      "rgba_sha256": "559cec84f224d6912405f69f8e72161022f9fbbae2ffef1ff5aa178e9cf8db87"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "multiplayer",
+      "state": null,
+      "rgba_sha256": "223046407373ac9dd4701d2bf15b33743f7bf4c66f9069b785ccda0c0eec755a"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "options",
+      "state": null,
+      "rgba_sha256": "c9aeaef1931684fc4eb554c43ddc4f70ff75db690eb47e053200923eb1e8c135"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "shop",
+      "state": null,
+      "rgba_sha256": "f72635302654c397749ba59091063c6714e55bac0eba97ca492aaa0803730889"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "infos",
+      "state": null,
+      "rgba_sha256": "5b7d9ea4eac78c7077d7114937a3f8f4d981949291140d41c9c3eb6dc45ced02"
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "tab": "credits",
+      "state": null,
+      "rgba_sha256": "130ce54a52b54ade8682e071bb42ebf8aa398714c7e885dd7cce23098a4b026f"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "home",
+      "state": null,
+      "rgba_sha256": "eaca5556d265ef42424d56ce9029857a9d4e87418a7602abbdd05d577e722cf2"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "solo",
+      "state": "continue",
+      "rgba_sha256": "2c8aeda4e73b7ee71de812ea8d8619b46353fe620c1a30cf85a8d53ac562b642"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "solo",
+      "state": "load",
+      "rgba_sha256": "9576f71df9be428be3e001b804c8ebf763628553053ee91b45cb1baee9002600"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "solo",
+      "state": "new",
+      "rgba_sha256": "19bd33af6b7cb8f7d4514c0f09be1930acda91382e353658aac59ea6a124e428"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "multiplayer",
+      "state": null,
+      "rgba_sha256": "e9e64e4c1227947f5ecb1925ece7f25e0fe09dd32c1532e2de1bebaac18d4dc2"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "options",
+      "state": null,
+      "rgba_sha256": "7614c075000ec6cc04ca1ef1249aa34cdeb2b53d88c8c727a2e9f2b4b1e98774"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "shop",
+      "state": null,
+      "rgba_sha256": "905e963fa9b8bdb65d0020062f1b3cc816c3db654814b5ed65602b8967976e3f"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "infos",
+      "state": null,
+      "rgba_sha256": "9e01a502c93319dbd8b1d221eb6548e94d88288aceff6c2df0fe82f18fcd48ea"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "tab": "credits",
+      "state": null,
+      "rgba_sha256": "d5fbcd0b513dcad2952d0331a1feb1f7c885f5524271b2685ab6ae0cbefaef4a"
+    }
+  ]
+}

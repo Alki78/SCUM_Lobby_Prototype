@@ -8,6 +8,7 @@ import "./styles/pages/solo.css";
 import "./styles/pages/solo-illustrations.css";
 import "./styles/pages/solo-saves.css";
 import "./styles/pages/solo-new-game.css";
+import "./styles/pages/solo-tutorial.css";
 import { registerLegacyHandlers } from "./runtime/legacy-handlers.js";
 import { render } from "./navigation.js";
 

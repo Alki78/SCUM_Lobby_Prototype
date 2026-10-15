@@ -14,7 +14,7 @@ export function renderSolo() {
   } else if (state.solo === "new")
     body = `<h2>NOUVELLE PARTIE</h2><div class="solo-new-intro"><div class="illustration"></div><p>Incarnez un prisonnier et embarquez sur l'île. Mettez à l'épreuve vos compétences de survie.</p></div>${btn("CRÉER UN PERSONNAGE", "demoAction('Création de personnage — écran du jeu non reproduit')", "red big")}`;
   else
-    body = `<h2>TUTORIEL</h2><div class="illustration"></div><p>Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.</p>${btn("LANCER LE TUTORIEL", "demoAction('Tutoriel — lancement simulé')", "red big")}`;
+    body = `<h2>TUTORIEL</h2><div class="solo-tutorial-intro"><div class="illustration"></div><p>Apprenez les bases de la survie dans un mode de jeu dédié avant de vous lancer sur l'île.</p></div>${btn("LANCER LE TUTORIEL", "demoAction('Tutoriel — lancement simulé')", "red big")}`;
   shell(
     `<h1>SOLO / BAC À SABLE</h1><div class="solo-layout"><div class="solo-choices">${soloNavigation.map(({ id, label: x, description }) => `<button class="choice ${state.solo === id ? "active" : ""}" data-solo-action="${id}" onclick="state.solo='${id}';render()">${x}<span>${description}</span></button>`).join("")}</div><div class="panel solo-detail" data-solo-view="${state.solo}">${body}</div></div>`,
     "solo",
