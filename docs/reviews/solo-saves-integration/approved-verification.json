@@ -1,0 +1,322 @@
+[
+  {
+    "viewport": [
+      1837,
+      856
+    ],
+    "before": {
+      "panel": {
+        "x": 675,
+        "y": 178.09375,
+        "width": 537,
+        "height": 501.609375,
+        "bottom": 679.703125
+      },
+      "button": {
+        "x": 696,
+        "y": 695.09375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 751.09375
+      },
+      "panelScrollHeight": 592,
+      "panelClientHeight": 500,
+      "listScrollHeight": null,
+      "listClientHeight": null,
+      "buttonFullyInsidePanel": false,
+      "pageScrollY": 0,
+      "documentHeight": 856,
+      "pageWidth": 1837,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Alki\n\nCHARGER CETTE SAUVEGARDE"
+    },
+    "states": [
+      {
+        "name": "Alki",
+        "panel": {
+          "x": 675,
+          "y": 178.09375,
+          "width": 537,
+          "height": 501.609375,
+          "bottom": 679.703125
+        },
+        "button": {
+          "x": 696,
+          "y": 602.703125,
+          "width": 495,
+          "height": 56,
+          "bottom": 658.703125
+        },
+        "panelScrollHeight": 500,
+        "panelClientHeight": 500,
+        "listScrollHeight": 219,
+        "listClientHeight": 219,
+        "buttonFullyInsidePanel": true,
+        "pageScrollY": 0,
+        "documentHeight": 856,
+        "pageWidth": 1837,
+        "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nAlki\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\nCHARGER CETTE SAUVEGARDE",
+        "outsideChangedPixels": 0
+      },
+      {
+        "name": "Prisonnier 02",
+        "panel": {
+          "x": 675,
+          "y": 178.09375,
+          "width": 537,
+          "height": 501.609375,
+          "bottom": 679.703125
+        },
+        "button": {
+          "x": 696,
+          "y": 602.703125,
+          "width": 495,
+          "height": 56,
+          "bottom": 658.703125
+        },
+        "panelScrollHeight": 500,
+        "panelClientHeight": 500,
+        "listScrollHeight": 219,
+        "listClientHeight": 219,
+        "buttonFullyInsidePanel": true,
+        "pageScrollY": 0,
+        "documentHeight": 856,
+        "pageWidth": 1837,
+        "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nPrisonnier 02\nTemps de jeu\nNon renseigné\nLocalisation\nNon renseigné\nCHARGER CETTE SAUVEGARDE",
+        "outsideChangedPixels": 0
+      }
+    ],
+    "mainSoloIdentical": true,
+    "existingInteractionsPreserved": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "before": {
+      "panel": {
+        "x": 592.453125,
+        "y": 174.484375,
+        "width": 477.65625,
+        "height": 450.046875,
+        "bottom": 624.53125
+      },
+      "button": {
+        "x": 609.453125,
+        "y": 687.484375,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 743.484375
+      },
+      "panelScrollHeight": 584,
+      "panelClientHeight": 448,
+      "listScrollHeight": null,
+      "listClientHeight": null,
+      "buttonFullyInsidePanel": false,
+      "pageScrollY": 0,
+      "documentHeight": 768,
+      "pageWidth": 1366,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Alki\n\nCHARGER CETTE SAUVEGARDE"
+    },
+    "states": [
+      {
+        "name": "Alki",
+        "panel": {
+          "x": 592.453125,
+          "y": 174.484375,
+          "width": 477.65625,
+          "height": 450.046875,
+          "bottom": 624.53125
+        },
+        "button": {
+          "x": 609.453125,
+          "y": 551.53125,
+          "width": 443.65625,
+          "height": 56,
+          "bottom": 607.53125
+        },
+        "panelScrollHeight": 448,
+        "panelClientHeight": 448,
+        "listScrollHeight": 175,
+        "listClientHeight": 175,
+        "buttonFullyInsidePanel": true,
+        "pageScrollY": 0,
+        "documentHeight": 768,
+        "pageWidth": 1366,
+        "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nAlki\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\nCHARGER CETTE SAUVEGARDE",
+        "outsideChangedPixels": 0
+      },
+      {
+        "name": "Prisonnier 02",
+        "panel": {
+          "x": 592.453125,
+          "y": 174.484375,
+          "width": 477.65625,
+          "height": 450.046875,
+          "bottom": 624.53125
+        },
+        "button": {
+          "x": 609.453125,
+          "y": 551.53125,
+          "width": 443.65625,
+          "height": 56,
+          "bottom": 607.53125
+        },
+        "panelScrollHeight": 448,
+        "panelClientHeight": 448,
+        "listScrollHeight": 175,
+        "listClientHeight": 175,
+        "buttonFullyInsidePanel": true,
+        "pageScrollY": 0,
+        "documentHeight": 768,
+        "pageWidth": 1366,
+        "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nPrisonnier 02\nTemps de jeu\nNon renseigné\nLocalisation\nNon renseigné\nCHARGER CETTE SAUVEGARDE",
+        "outsideChangedPixels": 0
+      }
+    ],
+    "mainSoloIdentical": true,
+    "existingInteractionsPreserved": true,
+    "errors": []
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "before": {
+      "panel": {
+        "x": 12,
+        "y": 652,
+        "width": 366,
+        "height": 613,
+        "bottom": 1265
+      },
+      "button": {
+        "x": 29,
+        "y": 1192,
+        "width": 330.28125,
+        "height": 56,
+        "bottom": 1248
+      },
+      "panelScrollHeight": 611,
+      "panelClientHeight": 611,
+      "listScrollHeight": null,
+      "listClientHeight": null,
+      "buttonFullyInsidePanel": true,
+      "pageScrollY": 0,
+      "documentHeight": 1345,
+      "pageWidth": 390,
+      "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPersonnage sélectionné : Alki\n\nCHARGER CETTE SAUVEGARDE"
+    },
+    "states": [
+      {
+        "name": "Alki",
+        "panel": {
+          "x": 12,
+          "y": 652,
+          "width": 366,
+          "height": 613,
+          "bottom": 1265
+        },
+        "button": {
+          "x": 29,
+          "y": 1192,
+          "width": 332,
+          "height": 56,
+          "bottom": 1248
+        },
+        "panelScrollHeight": 611,
+        "panelClientHeight": 611,
+        "listScrollHeight": 311,
+        "listClientHeight": 311,
+        "buttonFullyInsidePanel": true,
+        "pageScrollY": 0,
+        "documentHeight": 1345,
+        "pageWidth": 390,
+        "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nAlki\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\nCHARGER CETTE SAUVEGARDE",
+        "mobileDetail": {
+          "panel": {
+            "x": 12,
+            "y": 652,
+            "width": 366,
+            "height": 613,
+            "bottom": 1265
+          },
+          "button": {
+            "x": 29,
+            "y": 1192,
+            "width": 332,
+            "height": 56,
+            "bottom": 1248
+          },
+          "panelScrollHeight": 611,
+          "panelClientHeight": 611,
+          "listScrollHeight": 311,
+          "listClientHeight": 311,
+          "buttonFullyInsidePanel": true,
+          "pageScrollY": 501,
+          "documentHeight": 1345,
+          "pageWidth": 390,
+          "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nAlki\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\nCHARGER CETTE SAUVEGARDE"
+        },
+        "outsideChangedPixels": 0
+      },
+      {
+        "name": "Prisonnier 02",
+        "panel": {
+          "x": 12,
+          "y": 652,
+          "width": 366,
+          "height": 613,
+          "bottom": 1265
+        },
+        "button": {
+          "x": 29,
+          "y": 1192,
+          "width": 332,
+          "height": 56,
+          "bottom": 1248
+        },
+        "panelScrollHeight": 611,
+        "panelClientHeight": 611,
+        "listScrollHeight": 311,
+        "listClientHeight": 311,
+        "buttonFullyInsidePanel": true,
+        "pageScrollY": 0,
+        "documentHeight": 1345,
+        "pageWidth": 390,
+        "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nPrisonnier 02\nTemps de jeu\nNon renseigné\nLocalisation\nNon renseigné\nCHARGER CETTE SAUVEGARDE",
+        "mobileDetail": {
+          "panel": {
+            "x": 12,
+            "y": 652,
+            "width": 366,
+            "height": 613,
+            "bottom": 1265
+          },
+          "button": {
+            "x": 29,
+            "y": 1192,
+            "width": 332,
+            "height": 56,
+            "bottom": 1248
+          },
+          "panelScrollHeight": 611,
+          "panelClientHeight": 611,
+          "listScrollHeight": 311,
+          "listClientHeight": 311,
+          "buttonFullyInsidePanel": true,
+          "pageScrollY": 501,
+          "documentHeight": 1345,
+          "pageWidth": 390,
+          "panelText": "CHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n✕\nPrisonnier 02\n✕\nSurvivante 03\n✕\n\nPERSONNAGE SÉLECTIONNÉ\n\nPrisonnier 02\nTemps de jeu\nNon renseigné\nLocalisation\nNon renseigné\nCHARGER CETTE SAUVEGARDE"
+        },
+        "outsideChangedPixels": 0
+      }
+    ],
+    "mainSoloIdentical": true,
+    "existingInteractionsPreserved": true,
+    "errors": []
+  }
+]

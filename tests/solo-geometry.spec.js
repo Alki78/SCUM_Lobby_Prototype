@@ -7,8 +7,8 @@ const original = await readFile(
   "utf8",
 );
 const standalone = await readFile("dist/index.html", "utf8");
-async function palette(page) {
-  return page.evaluate(() => {
+async function palette(page, saves = false) {
+  return page.evaluate((saves) => {
     const properties = [
       "fontFamily",
       "fontSize",
@@ -31,21 +31,23 @@ async function palette(page) {
       ".solo-layout h2",
       ".illustration",
       ".solo-layout>.panel>.btn.big",
-    ].flatMap((selector) =>
-      [...document.querySelectorAll(selector)].map((el) => {
-        const style = getComputedStyle(el);
-        return {
-          selector,
-          properties: Object.fromEntries(
-            properties.map((key) => [
-              key,
-              style[key].replace(/url\([^)]*\)/g, "url(IMAGE)"),
-            ]),
-          ),
-        };
-      }),
-    );
-  });
+    ]
+      .filter((selector) => !saves || selector !== ".illustration")
+      .flatMap((selector) =>
+        [...document.querySelectorAll(selector)].map((el) => {
+          const style = getComputedStyle(el);
+          return {
+            selector,
+            properties: Object.fromEntries(
+              properties.map((key) => [
+                key,
+                style[key].replace(/url\([^)]*\)/g, "url(IMAGE)"),
+              ]),
+            ),
+          };
+        }),
+      );
+  }, saves);
 }
 
 for (const target of ["development", "standalone"]) {
@@ -91,7 +93,10 @@ for (const target of ["development", "standalone"]) {
           const layout = await assertSoloGeometry(page);
           expect(layout.choices).toEqual(initial.choices);
           if (viewport.width > 700) expect(layout.panel).toEqual(initial.panel);
-          expect(await palette(page)).toEqual(await palette(reference));
+          // L'illustration a été retirée du seul panneau Sauvegardes validé.
+          expect(await palette(page, index === 1)).toEqual(
+            await palette(reference, index === 1),
+          );
         }
         async function dialog(button, content) {
           await page.getByRole("button", { name: button, exact: true }).click();
@@ -106,8 +111,8 @@ for (const target of ["development", "standalone"]) {
         await page
           .getByRole("button", { name: "Prisonnier 02", exact: true })
           .click();
-        await expect(page.locator(".solo-detail")).toContainText(
-          "Personnage sélectionné : Prisonnier 02",
+        await expect(page.locator(".solo-save-name")).toHaveText(
+          "Prisonnier 02",
         );
         await page
           .getByRole("button", { name: "✕", exact: true })
