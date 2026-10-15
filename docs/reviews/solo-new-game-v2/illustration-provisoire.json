@@ -1,0 +1,22 @@
+{
+  "status": "PROVISOIRE — simulation uniquement, à valider",
+  "source": "assets/images/home-communication-officielle.png",
+  "source_dimensions": [
+    2129,
+    405
+  ],
+  "source_sha256": "cfb03f6c18f5f96d9c7667b141b4bddf31e05ba5226d3643d510e837d3845dd5",
+  "crop_box_left_top_right_exclusive_bottom_exclusive": [
+    730,
+    164,
+    1370,
+    404
+  ],
+  "output": "illustration-provisoire-vallee.png",
+  "output_dimensions": [
+    640,
+    240
+  ],
+  "output_sha256": "91207c101c0cb751f1a102d871791e56b0df0674bc9abac0901094a3cfe80fa0",
+  "processing": "Découpe de pixels uniquement, sans redimensionnement, génération, ajout de contenu ou correction colorimétrique."
+}
