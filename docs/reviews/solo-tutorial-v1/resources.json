@@ -1,0 +1,46 @@
+{
+  "resource_status": "Image existante réutilisée pour simulation, choix artistique à valider",
+  "sources": [
+    {
+      "file": "assets/images/home-battleground.png",
+      "dimensions": [
+        694,
+        320
+      ],
+      "bytes": 387429,
+      "sha256": "72c76ba5a53d487bee9876465996452054b563b2f79d1f93cb3e0f58ad0bf049",
+      "selected": true
+    },
+    {
+      "file": "assets/images/solo-tutoriel.png",
+      "dimensions": [
+        264,
+        121
+      ],
+      "bytes": 62306,
+      "sha256": "1a99e8e38d3f4d4057dab76d7a0424e1a028d61a348a20b9d72eedbf208e82c2",
+      "selected": false
+    },
+    {
+      "file": "assets/images/home-communaute.png",
+      "dimensions": [
+        693,
+        320
+      ],
+      "bytes": 373889,
+      "sha256": "31ea1c50bf37bc3d4e80b96692e597f15633341bc1aeee6e1a3ffc8717945cc6",
+      "selected": false
+    },
+    {
+      "file": "assets/images/solo-background.jpg",
+      "dimensions": [
+        1100,
+        780
+      ],
+      "bytes": 123461,
+      "sha256": "a0e9a0154f1a965a8dc3811e9eed1d224cf937711c2d7cab915b57bac664d43b",
+      "selected": false
+    }
+  ],
+  "processing": "Aucun nouveau fichier image, aucune découpe, aucun agrandissement ni traitement colorimétrique de la ressource choisie."
+}
