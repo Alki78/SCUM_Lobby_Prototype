@@ -1,0 +1,1802 @@
+[
+  {
+    "viewport": [
+      1837,
+      856
+    ],
+    "states": [
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nDERNI\u00c8RE SESSION SOLO\nAlki\n\nBac \u00e0 sable \u00b7 Dernier personnage utilis\u00e9\n\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\n\u25b6 CONTINUER LA PARTIE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1837,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 293,
+            "y": 0,
+            "width": 1244,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1537,
+            "y": 0,
+            "width": 262,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 802,
+            "width": 1837,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 65,
+            "y": 123.09375,
+            "width": 1707,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 1147,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 501.609375
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 116.390625
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 65,
+            "y": 306.484375,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 65,
+            "y": 434.890625,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 65,
+            "y": 563.296875,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 675,
+            "y": 178.09375,
+            "width": 537,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 696,
+            "y": 199.09375,
+            "width": 495,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 696,
+            "y": 244.09375,
+            "width": 495,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 696,
+            "y": 433.09375,
+            "width": 495,
+            "height": 22
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 696,
+            "y": 461.09375,
+            "width": 495,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 4,
+            "x": 696,
+            "y": 487.09375,
+            "width": 495,
+            "height": 35
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 5,
+            "x": 696,
+            "y": 522.09375,
+            "width": 495,
+            "height": 35
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 6,
+            "x": 696,
+            "y": 601.703125,
+            "width": 495,
+            "height": 57
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nCHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n\u2715\nPrisonnier 02\n\u2715\nSurvivante 03\n\u2715\n\nPersonnage s\u00e9lectionn\u00e9 : Alki\n\nCHARGER CETTE SAUVEGARDE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1837,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 293,
+            "y": 0,
+            "width": 1244,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1537,
+            "y": 0,
+            "width": 262,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 802,
+            "width": 1837,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 65,
+            "y": 123.09375,
+            "width": 1707,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 1147,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 501.609375
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 116.390625
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 65,
+            "y": 306.484375,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 65,
+            "y": 434.890625,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 65,
+            "y": 563.296875,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 675,
+            "y": 178.09375,
+            "width": 537,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 696,
+            "y": 199.09375,
+            "width": 495,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 696,
+            "y": 236.09375,
+            "width": 495,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 696,
+            "y": 262.09375,
+            "width": 495,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 696,
+            "y": 332.09375,
+            "width": 495,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 4,
+            "x": 696,
+            "y": 402.09375,
+            "width": 495,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 5,
+            "x": 696,
+            "y": 480.09375,
+            "width": 495,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 6,
+            "x": 696,
+            "y": 669.09375,
+            "width": 495,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 7,
+            "x": 696,
+            "y": 695.09375,
+            "width": 330.28125,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nNOUVELLE PARTIE\n\nIncarnez un prisonnier et embarquez sur l'\u00eele. Mettez \u00e0 l'\u00e9preuve vos comp\u00e9tences de survie.\n\nCR\u00c9ER UN PERSONNAGE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1837,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 293,
+            "y": 0,
+            "width": 1244,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1537,
+            "y": 0,
+            "width": 262,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 802,
+            "width": 1837,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 65,
+            "y": 123.09375,
+            "width": 1707,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 1147,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 501.609375
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 116.390625
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 65,
+            "y": 306.484375,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 65,
+            "y": 434.890625,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 65,
+            "y": 563.296875,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 675,
+            "y": 178.09375,
+            "width": 537,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 696,
+            "y": 199.09375,
+            "width": 495,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 696,
+            "y": 244.09375,
+            "width": 495,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 696,
+            "y": 433.09375,
+            "width": 495,
+            "height": 36
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 696,
+            "y": 602.703125,
+            "width": 272.125,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nTUTORIEL\n\nApprenez les bases de la survie dans un mode de jeu d\u00e9di\u00e9 avant de vous lancer sur l'\u00eele.\n\nLANCER LE TUTORIEL\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1837,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 293,
+            "y": 0,
+            "width": 1244,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1537,
+            "y": 0,
+            "width": 262,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 802,
+            "width": 1837,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 65,
+            "y": 123.09375,
+            "width": 1707,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 1147,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 501.609375
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 65,
+            "y": 178.09375,
+            "width": 596,
+            "height": 116.390625
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 65,
+            "y": 306.484375,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 65,
+            "y": 434.890625,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 65,
+            "y": 563.296875,
+            "width": 596,
+            "height": 116.40625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 675,
+            "y": 178.09375,
+            "width": 537,
+            "height": 501.609375
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 696,
+            "y": 199.09375,
+            "width": 495,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 696,
+            "y": 244.09375,
+            "width": 495,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 696,
+            "y": 433.09375,
+            "width": 495,
+            "height": 36
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 696,
+            "y": 602.703125,
+            "width": 244.09375,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "states": [
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nDERNI\u00c8RE SESSION SOLO\nAlki\n\nBac \u00e0 sable \u00b7 Dernier personnage utilis\u00e9\n\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\n\u25b6 CONTINUER LA PARTIE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1366,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 247.21875,
+            "y": 0,
+            "width": 832.890625,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1080.109375,
+            "y": 0,
+            "width": 257.21875,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 714,
+            "width": 1366,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 48.34375,
+            "y": 119.484375,
+            "width": 1269.3125,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 1021.765625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 450.046875
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 103.5
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 48.34375,
+            "y": 289.984375,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 48.34375,
+            "y": 405.5,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 48.34375,
+            "y": 521.015625,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 592.453125,
+            "y": 174.484375,
+            "width": 477.65625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 609.453125,
+            "y": 191.484375,
+            "width": 443.65625,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 609.453125,
+            "y": 236.484375,
+            "width": 443.65625,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 609.453125,
+            "y": 425.484375,
+            "width": 443.65625,
+            "height": 22
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 609.453125,
+            "y": 453.484375,
+            "width": 443.65625,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 4,
+            "x": 609.453125,
+            "y": 479.484375,
+            "width": 443.65625,
+            "height": 35
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 5,
+            "x": 609.453125,
+            "y": 514.484375,
+            "width": 443.65625,
+            "height": 35
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 6,
+            "x": 609.453125,
+            "y": 550.53125,
+            "width": 443.65625,
+            "height": 57
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nCHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n\u2715\nPrisonnier 02\n\u2715\nSurvivante 03\n\u2715\n\nPersonnage s\u00e9lectionn\u00e9 : Alki\n\nCHARGER CETTE SAUVEGARDE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1366,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 247.21875,
+            "y": 0,
+            "width": 832.890625,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1080.109375,
+            "y": 0,
+            "width": 257.21875,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 714,
+            "width": 1366,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 48.34375,
+            "y": 119.484375,
+            "width": 1269.3125,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 1021.765625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 450.046875
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 103.5
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 48.34375,
+            "y": 289.984375,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 48.34375,
+            "y": 405.5,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 48.34375,
+            "y": 521.015625,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 592.453125,
+            "y": 174.484375,
+            "width": 477.65625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 609.453125,
+            "y": 191.484375,
+            "width": 443.65625,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 609.453125,
+            "y": 228.484375,
+            "width": 443.65625,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 609.453125,
+            "y": 254.484375,
+            "width": 443.65625,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 609.453125,
+            "y": 324.484375,
+            "width": 443.65625,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 4,
+            "x": 609.453125,
+            "y": 394.484375,
+            "width": 443.65625,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 5,
+            "x": 609.453125,
+            "y": 472.484375,
+            "width": 443.65625,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 6,
+            "x": 609.453125,
+            "y": 661.484375,
+            "width": 443.65625,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 7,
+            "x": 609.453125,
+            "y": 687.484375,
+            "width": 330.28125,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nNOUVELLE PARTIE\n\nIncarnez un prisonnier et embarquez sur l'\u00eele. Mettez \u00e0 l'\u00e9preuve vos comp\u00e9tences de survie.\n\nCR\u00c9ER UN PERSONNAGE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1366,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 247.21875,
+            "y": 0,
+            "width": 832.890625,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1080.109375,
+            "y": 0,
+            "width": 257.21875,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 714,
+            "width": 1366,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 48.34375,
+            "y": 119.484375,
+            "width": 1269.3125,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 1021.765625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 450.046875
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 103.5
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 48.34375,
+            "y": 289.984375,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 48.34375,
+            "y": 405.5,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 48.34375,
+            "y": 521.015625,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 592.453125,
+            "y": 174.484375,
+            "width": 477.65625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 609.453125,
+            "y": 191.484375,
+            "width": 443.65625,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 609.453125,
+            "y": 236.484375,
+            "width": 443.65625,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 609.453125,
+            "y": 425.484375,
+            "width": 443.65625,
+            "height": 36
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 609.453125,
+            "y": 551.53125,
+            "width": 272.125,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSTEAM\nTWITCH\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nTUTORIEL\n\nApprenez les bases de la survie dans un mode de jeu d\u00e9di\u00e9 avant de vous lancer sur l'\u00eele.\n\nLANCER LE TUTORIEL\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 1366,
+            "height": 88
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 247.21875,
+            "y": 0,
+            "width": 832.890625,
+            "height": 87
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 1080.109375,
+            "y": 0,
+            "width": 257.21875,
+            "height": 87
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 714,
+            "width": 1366,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 48.34375,
+            "y": 119.484375,
+            "width": 1269.3125,
+            "height": 49
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 1021.765625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 450.046875
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 48.34375,
+            "y": 174.484375,
+            "width": 530.109375,
+            "height": 103.5
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 48.34375,
+            "y": 289.984375,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 48.34375,
+            "y": 405.5,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 48.34375,
+            "y": 521.015625,
+            "width": 530.109375,
+            "height": 103.515625
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 592.453125,
+            "y": 174.484375,
+            "width": 477.65625,
+            "height": 450.046875
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 609.453125,
+            "y": 191.484375,
+            "width": 443.65625,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 609.453125,
+            "y": 236.484375,
+            "width": 443.65625,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 609.453125,
+            "y": 425.484375,
+            "width": 443.65625,
+            "height": 36
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 609.453125,
+            "y": 551.53125,
+            "width": 244.09375,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "states": [
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nDERNI\u00c8RE SESSION SOLO\nAlki\n\nBac \u00e0 sable \u00b7 Dernier personnage utilis\u00e9\n\nTemps de jeu\n24 h 12 min\nLocalisation\nSecteur A3\n\u25b6 CONTINUER LA PARTIE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 196
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 14,
+            "y": 75,
+            "width": 362,
+            "height": 45
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 14,
+            "y": 120,
+            "width": 362,
+            "height": 75
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 790,
+            "width": 390,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 12,
+            "y": 212,
+            "width": 366,
+            "height": 34
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 880
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 382
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 12,
+            "y": 350,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 12,
+            "y": 448,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 12,
+            "y": 546,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 12,
+            "y": 652,
+            "width": 366,
+            "height": 480
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 29,
+            "y": 669,
+            "width": 332,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 29,
+            "y": 714,
+            "width": 332,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 29,
+            "y": 903,
+            "width": 332,
+            "height": 22
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 29,
+            "y": 931,
+            "width": 332,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 4,
+            "x": 29,
+            "y": 957,
+            "width": 332,
+            "height": 35
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 5,
+            "x": 29,
+            "y": 992,
+            "width": 332,
+            "height": 35
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 6,
+            "x": 29,
+            "y": 1058,
+            "width": 332,
+            "height": 57
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nCHARGER UNE SAUVEGARDE\n\nPersonnages locaux (exemples fictifs)\n\nAlki\n\u2715\nPrisonnier 02\n\u2715\nSurvivante 03\n\u2715\n\nPersonnage s\u00e9lectionn\u00e9 : Alki\n\nCHARGER CETTE SAUVEGARDE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 196
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 14,
+            "y": 75,
+            "width": 362,
+            "height": 45
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 14,
+            "y": 120,
+            "width": 362,
+            "height": 75
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 790,
+            "width": 390,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 12,
+            "y": 212,
+            "width": 366,
+            "height": 34
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 1013
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 382
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 12,
+            "y": 350,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 12,
+            "y": 448,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 12,
+            "y": 546,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 12,
+            "y": 652,
+            "width": 366,
+            "height": 613
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 29,
+            "y": 669,
+            "width": 332,
+            "height": 54
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 29,
+            "y": 733,
+            "width": 332,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 29,
+            "y": 759,
+            "width": 332,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 29,
+            "y": 829,
+            "width": 332,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 4,
+            "x": 29,
+            "y": 899,
+            "width": 332,
+            "height": 70
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 5,
+            "x": 29,
+            "y": 977,
+            "width": 332,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 6,
+            "x": 29,
+            "y": 1166,
+            "width": 332,
+            "height": 18
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 7,
+            "x": 29,
+            "y": 1192,
+            "width": 330.28125,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nNOUVELLE PARTIE\n\nIncarnez un prisonnier et embarquez sur l'\u00eele. Mettez \u00e0 l'\u00e9preuve vos comp\u00e9tences de survie.\n\nCR\u00c9ER UN PERSONNAGE\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 196
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 14,
+            "y": 75,
+            "width": 362,
+            "height": 45
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 14,
+            "y": 120,
+            "width": 362,
+            "height": 75
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 790,
+            "width": 390,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 12,
+            "y": 212,
+            "width": 366,
+            "height": 34
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 880
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 382
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 12,
+            "y": 350,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 12,
+            "y": 448,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 12,
+            "y": 546,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 12,
+            "y": 652,
+            "width": 366,
+            "height": 480
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 29,
+            "y": 669,
+            "width": 332,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 29,
+            "y": 714,
+            "width": 332,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 29,
+            "y": 903,
+            "width": 332,
+            "height": 54
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 29,
+            "y": 1059,
+            "width": 272.125,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "text": "ACCUEIL\nSOLO\nMULTIJOUEUR\nOPTIONS\nDLC / SHOP\nINFOS\nCR\u00c9DITS\ncherwood\nSOLO / BAC \u00c0 SABLE\nCONTINUER\nReprendre la derni\u00e8re partie solo\nCHARGER UNE SAUVEGARDE\nChoisir un personnage existant\nNOUVELLE PARTIE\nCr\u00e9er un nouveau personnage\nTUTORIEL\nApprendre les bases de la survie\nTUTORIEL\n\nApprenez les bases de la survie dans un mode de jeu d\u00e9di\u00e9 avant de vous lancer sur l'\u00eele.\n\nLANCER LE TUTORIEL\n\u23fb \u00a0 QUITTER\nPROTOTYPE COMMUNAUTAIRE \u2014 DONN\u00c9ES FICTIVES",
+        "rects": [
+          {
+            "selector": "header",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 196
+          },
+          {
+            "selector": "nav",
+            "index": 0,
+            "x": 14,
+            "y": 75,
+            "width": 362,
+            "height": 45
+          },
+          {
+            "selector": ".profile",
+            "index": 0,
+            "x": 14,
+            "y": 120,
+            "width": 362,
+            "height": 75
+          },
+          {
+            "selector": ".footer",
+            "index": 0,
+            "x": 0,
+            "y": 790,
+            "width": 390,
+            "height": 54
+          },
+          {
+            "selector": "h1",
+            "index": 0,
+            "x": 12,
+            "y": 212,
+            "width": 366,
+            "height": 34
+          },
+          {
+            "selector": ".solo-layout",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 880
+          },
+          {
+            "selector": ".solo-choices",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 382
+          },
+          {
+            "selector": ".choice",
+            "index": 0,
+            "x": 12,
+            "y": 252,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 1,
+            "x": 12,
+            "y": 350,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 2,
+            "x": 12,
+            "y": 448,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".choice",
+            "index": 3,
+            "x": 12,
+            "y": 546,
+            "width": 366,
+            "height": 88
+          },
+          {
+            "selector": ".solo-detail",
+            "index": 0,
+            "x": 12,
+            "y": 652,
+            "width": 366,
+            "height": 480
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 0,
+            "x": 29,
+            "y": 669,
+            "width": 332,
+            "height": 27
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 1,
+            "x": 29,
+            "y": 714,
+            "width": 332,
+            "height": 175
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 2,
+            "x": 29,
+            "y": 903,
+            "width": 332,
+            "height": 54
+          },
+          {
+            "selector": ".solo-detail > *",
+            "index": 3,
+            "x": 29,
+            "y": 1059,
+            "width": 244.09375,
+            "height": 56
+          }
+        ],
+        "overflow": false
+      }
+    ]
+  }
+]

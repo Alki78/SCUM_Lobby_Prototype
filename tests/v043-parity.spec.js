@@ -369,6 +369,11 @@ test("ressources originales et export autonome", async () => {
     ...originalHashes,
     authenticHash,
     ...illustrationHashes,
+    ...(await Promise.all(
+      ["nouvelle-partie", "tutoriel", "derniere-session"].map(async (slug) =>
+        hash(await readFile(`assets/images/solo-${slug}.png`)),
+      ),
+    )),
   ]);
   expect([...builtHashes].sort()).toEqual([...expectedHashes].sort());
   expect(await readdir("dist")).toEqual(["index.html"]);
