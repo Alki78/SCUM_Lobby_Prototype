@@ -1,0 +1,39 @@
+/* Revue uniquement : aucune importation dans le prototype de production. */
+.app[data-bg="solo"] .solo-detail[data-solo-view="new"][data-review-new] {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 16px;
+  overflow: hidden;
+  height: var(--review-new-original-height);
+}
+.app[data-bg="solo"] .solo-detail[data-solo-view="new"][data-review-new] > h2 {
+  margin: 0;
+}
+.app[data-bg="solo"] .review-new-intro {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.app[data-bg="solo"] .review-new-intro > .illustration {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 640 / 240;
+  margin: 0;
+  border: 0;
+  outline: 1px solid #646d75;
+  background: url("/docs/reviews/solo-new-game-v2/illustration-provisoire-vallee.png") center / contain no-repeat;
+}
+.app[data-bg="solo"] .review-new-intro > p {
+  margin: 0;
+  width: 100%;
+  line-height: 1.5;
+}
+.app[data-bg="solo"] .solo-detail[data-solo-view="new"][data-review-new] > .btn.big {
+  width: 100%;
+  align-self: end;
+  margin: 0;
+}

@@ -7,8 +7,8 @@ const original = await readFile(
   "utf8",
 );
 const standalone = await readFile("dist/index.html", "utf8");
-async function palette(page, saves = false) {
-  return page.evaluate((saves) => {
+async function palette(page, recomposed = false) {
+  return page.evaluate((recomposed) => {
     const properties = [
       "fontFamily",
       "fontSize",
@@ -32,7 +32,7 @@ async function palette(page, saves = false) {
       ".illustration",
       ".solo-layout>.panel>.btn.big",
     ]
-      .filter((selector) => !saves || selector !== ".illustration")
+      .filter((selector) => !recomposed || selector !== ".illustration")
       .flatMap((selector) =>
         [...document.querySelectorAll(selector)].map((el) => {
           const style = getComputedStyle(el);
@@ -47,7 +47,7 @@ async function palette(page, saves = false) {
           };
         }),
       );
-  }, saves);
+  }, recomposed);
 }
 
 for (const target of ["development", "standalone"]) {
@@ -93,9 +93,9 @@ for (const target of ["development", "standalone"]) {
           const layout = await assertSoloGeometry(page);
           expect(layout.choices).toEqual(initial.choices);
           if (viewport.width > 700) expect(layout.panel).toEqual(initial.panel);
-          // L'illustration a été retirée du seul panneau Sauvegardes validé.
-          expect(await palette(page, index === 1)).toEqual(
-            await palette(reference, index === 1),
+          // Sauvegardes et Nouvelle partie ont leurs captures approuvées propres.
+          expect(await palette(page, index === 1 || index === 2)).toEqual(
+            await palette(reference, index === 1 || index === 2),
           );
         }
         async function dialog(button, content) {

@@ -1,0 +1,39 @@
+/* Nouvelle partie : composition v2 approuvée, limitée à ce parcours SOLO. */
+.app[data-bg="solo"] .solo-detail[data-solo-view="new"] {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 16px;
+  overflow: hidden;
+}
+.app[data-bg="solo"] .solo-detail[data-solo-view="new"] > h2 {
+  margin: 0;
+}
+.app[data-bg="solo"] .solo-new-intro {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.app[data-bg="solo"] .solo-new-intro > .illustration {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 640 / 240;
+  margin: 0;
+  border: 0;
+  outline: 1px solid #646d75;
+  background: url("../../../assets/images/solo-nouvelle-partie-banniere.png")
+    center / contain no-repeat;
+}
+.app[data-bg="solo"] .solo-new-intro > p {
+  margin: 0;
+  width: 100%;
+  line-height: 1.5;
+}
+.app[data-bg="solo"] .solo-detail[data-solo-view="new"] > .btn.big {
+  width: 100%;
+  align-self: end;
+  margin: 0;
+}
