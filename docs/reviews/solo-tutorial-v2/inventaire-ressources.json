@@ -1,0 +1,460 @@
+{
+  "main_commit": "d2f1928325c0376af9af67c1695218b236309c71",
+  "approved_composition_commit": "8ff99b7bf218a3f50afc76c2e113fe7aa149c316",
+  "selected_illustration": null,
+  "status": "blocked_no_suitable_existing_illustration",
+  "standalone_images": [
+    {
+      "path": "assets/images/avatar.png",
+      "width": 65,
+      "height": 64,
+      "bytes": 7195,
+      "sha256": "f9b0e392be075a4aa11400ecc26665e092e5e6c9a4c5d89b03979379aad70a32"
+    },
+    {
+      "path": "assets/images/battleground-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 106721,
+      "sha256": "11441cb0fdbe42adc9ea0e5e4ac18f978990de7eb47e5dbd882f2bcb045198e6"
+    },
+    {
+      "path": "assets/images/direct-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 115523,
+      "sha256": "8b83dbed89251570ae107011f488f1ea5ff463e2fb9c3cad7f5ca422e16f90d8"
+    },
+    {
+      "path": "assets/images/home-background.jpg",
+      "width": 1837,
+      "height": 715,
+      "bytes": 154612,
+      "sha256": "1fef201b575551c46dfeff502f96cc5e0fb2f04642a3ef12491be94ed94ae386"
+    },
+    {
+      "path": "assets/images/home-battleground.png",
+      "width": 694,
+      "height": 320,
+      "bytes": 387429,
+      "sha256": "72c76ba5a53d487bee9876465996452054b563b2f79d1f93cb3e0f58ad0bf049"
+    },
+    {
+      "path": "assets/images/home-communaute.png",
+      "width": 693,
+      "height": 320,
+      "bytes": 373889,
+      "sha256": "31ea1c50bf37bc3d4e80b96692e597f15633341bc1aeee6e1a3ffc8717945cc6"
+    },
+    {
+      "path": "assets/images/home-communication-officielle.png",
+      "width": 2129,
+      "height": 405,
+      "bytes": 1423094,
+      "sha256": "cfb03f6c18f5f96d9c7667b141b4bddf31e05ba5226d3643d510e837d3845dd5"
+    },
+    {
+      "path": "assets/images/home-dlc.png",
+      "width": 695,
+      "height": 320,
+      "bytes": 337842,
+      "sha256": "a43ca35a6d851c11fd80de7f00a2662c3fcd0b5fa5247450dab4657caa8e3491"
+    },
+    {
+      "path": "assets/images/home-news.jpg",
+      "width": 670,
+      "height": 63,
+      "bytes": 12199,
+      "sha256": "4b68c50fcfcf8bca759d05841528f3366fc273a718275b52838a2b097f9f41b5"
+    },
+    {
+      "path": "assets/images/infos-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 112832,
+      "sha256": "5640212132cbce1acb849749cc7ed8d911d87c15d0f1051336562ffb0b273d51"
+    },
+    {
+      "path": "assets/images/last-session.jpg",
+      "width": 342,
+      "height": 193,
+      "bytes": 17340,
+      "sha256": "b558125b697c79a6ced25eea977f0629900e6856f6c2caf95391c4e5ca762295"
+    },
+    {
+      "path": "assets/images/lobby-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 100288,
+      "sha256": "635f5419a464c5e9097907ea556f95b30741b33b5abf175a4322425101f94855"
+    },
+    {
+      "path": "assets/images/logo.png",
+      "width": 203,
+      "height": 64,
+      "bytes": 16745,
+      "sha256": "53ac772732652227a3da1a4821717ee6650f51f0245972a0095e4426ac4fa887"
+    },
+    {
+      "path": "assets/images/options-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 91769,
+      "sha256": "9f394458d1ab72a12c8af1bd7185785950616761c5ca3f021110710977dccdba"
+    },
+    {
+      "path": "assets/images/promo-battleground.jpg",
+      "width": 230,
+      "height": 85,
+      "bytes": 5893,
+      "sha256": "9b9b95c6d6051b6061f44487d5f9a38583d70c6a54a88222f400ee84f0dc8d0a"
+    },
+    {
+      "path": "assets/images/promo-community.jpg",
+      "width": 229,
+      "height": 85,
+      "bytes": 5679,
+      "sha256": "a60319c795b05fc4926ae51c40542311846ebdfb95400dd3516acd9f070bda45"
+    },
+    {
+      "path": "assets/images/promo-dlc.jpg",
+      "width": 228,
+      "height": 85,
+      "bytes": 5589,
+      "sha256": "b71d60b2653dbd186ac5e62c1971a42661ee84035b5c1ee32362b61b60999562"
+    },
+    {
+      "path": "assets/images/rent-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 126566,
+      "sha256": "4e7d09b53b3139b4ef3068093f9ddd0fbead9385fb3bf9f0088c32811bcada9a"
+    },
+    {
+      "path": "assets/images/servers-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 91349,
+      "sha256": "f60f84f1b235ad5fd2d99f8f26aacc80fed4419e52372e73b09c666f7ea780c3"
+    },
+    {
+      "path": "assets/images/shop-angler.jpg",
+      "width": 331,
+      "height": 126,
+      "bytes": 17897,
+      "sha256": "86a0d551588b0c6e6011cca7f64241f6e257538bf07d2c98b8d7737da8c8c9e3"
+    },
+    {
+      "path": "assets/images/shop-apex.jpg",
+      "width": 331,
+      "height": 124,
+      "bytes": 13952,
+      "sha256": "d0751da53c18bc1c60981a4c712519c6d8cb28b64d015cc484035752f79b23c6"
+    },
+    {
+      "path": "assets/images/shop-detail.jpg",
+      "width": 494,
+      "height": 280,
+      "bytes": 45037,
+      "sha256": "abf859373d935657c7c5f077c0faecb70022e96475293cd1d62398636d8737c3"
+    },
+    {
+      "path": "assets/images/shop-hero.jpg",
+      "width": 985,
+      "height": 277,
+      "bytes": 84899,
+      "sha256": "a8908dae7a824c91a3765d2147a7082ef926edbb81af950337db9a93ef4d0479"
+    },
+    {
+      "path": "assets/images/shop-stalker.jpg",
+      "width": 331,
+      "height": 124,
+      "bytes": 19579,
+      "sha256": "96b7f59237a4dbddbac668d811d0380b05cd890cf9066474a064580590410dc2"
+    },
+    {
+      "path": "assets/images/shop-supporter.jpg",
+      "width": 331,
+      "height": 125,
+      "bytes": 15936,
+      "sha256": "801bcc4c04f9848a3ecd191745ed9331b72e2b636bdaf96b9e163eb1ab27d29c"
+    },
+    {
+      "path": "assets/images/solo-background.jpg",
+      "width": 1100,
+      "height": 780,
+      "bytes": 123461,
+      "sha256": "a0e9a0154f1a965a8dc3811e9eed1d224cf937711c2d7cab915b57bac664d43b"
+    },
+    {
+      "path": "assets/images/solo-derniere-session.png",
+      "width": 444,
+      "height": 159,
+      "bytes": 115579,
+      "sha256": "1f1d98c7f779f3cde9f4af50e9dc40a6351fa7f1749b7b71abf5e610673c5f7a"
+    },
+    {
+      "path": "assets/images/solo-nouvelle-partie-banniere.png",
+      "width": 640,
+      "height": 240,
+      "bytes": 257304,
+      "sha256": "91207c101c0cb751f1a102d871791e56b0df0674bc9abac0901094a3cfe80fa0"
+    },
+    {
+      "path": "assets/images/solo-nouvelle-partie.png",
+      "width": 264,
+      "height": 118,
+      "bytes": 57705,
+      "sha256": "61617cab9f4f1cff69a07d8af625b3018b9f136f3170c168395784de604dd22c"
+    },
+    {
+      "path": "assets/images/solo-tutoriel.png",
+      "width": 264,
+      "height": 121,
+      "bytes": 62306,
+      "sha256": "1a99e8e38d3f4d4057dab76d7a0424e1a028d61a348a20b9d72eedbf208e82c2"
+    },
+    {
+      "path": "docs/references/Lobby_Accueil_Illustrations_Proposition_v1.png",
+      "width": 2129,
+      "height": 738,
+      "bytes": 2701033,
+      "sha256": "9577b4fd53eb181d01af3b45ac699fbd43f615fbc67d8e82367923daa05aae41"
+    },
+    {
+      "path": "docs/references/Lobby_Accueil_v1.png",
+      "width": 1837,
+      "height": 856,
+      "bytes": 2250580,
+      "sha256": "ddc3a443b295012f0b894c683a732cfdf8d907987dde2101e28818b0f155840f"
+    },
+    {
+      "path": "docs/references/Lobby_Infos_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2307748,
+      "sha256": "2f5e377a0ae38c43e616bbfed5960982ffa4ea6038a6782e9f533ff129a84dac"
+    },
+    {
+      "path": "docs/references/Lobby_Multijoueur_Battleground_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2245294,
+      "sha256": "6243ed54627a882ecd1948331d553f196e8903ea0faef82afe3fb7966bfd5af1"
+    },
+    {
+      "path": "docs/references/Lobby_Multijoueur_ConnexionDirect_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2273251,
+      "sha256": "9fc94fd9e028dce13a2bfaed79576e786448202246f5e36ea2c5d6bbe3cd53cd"
+    },
+    {
+      "path": "docs/references/Lobby_Multijoueur_LocationServeur_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2221191,
+      "sha256": "233323130408e6b1fc9b683a4ef46cbafc3be2fcd0ed7c380f1c16f649a799c9"
+    },
+    {
+      "path": "docs/references/Lobby_Multijoueur_ServeursPublics_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2064864,
+      "sha256": "fa3c0bcb51d2bf3381a4975dda5576eaf555cf1613e71a84e95baa78864c401e"
+    },
+    {
+      "path": "docs/references/Lobby_Multijoueur_Shop_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2486244,
+      "sha256": "c1527c717a68b943d4238f65705a147a8f2855dcfdddac5c963df2845e0d714f"
+    },
+    {
+      "path": "docs/references/Lobby_Options_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1965497,
+      "sha256": "e4379da5371a3a4bcd36f3a0b4084046aea60a9ce4c54f488efbc95445093741"
+    },
+    {
+      "path": "docs/references/Lobby_Solo_Illustrations_Proposition_v1.png",
+      "width": 1836,
+      "height": 856,
+      "bytes": 2468916,
+      "sha256": "5b544dec4abafb183a1f1ac8fcb501d5d4f4e12f0b064272738478ede8b7a4b6"
+    },
+    {
+      "path": "docs/references/Lobby_Solo_v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2643129,
+      "sha256": "4c883f7f61ea78e592772ca8664a39b75abaeb664b6036034f3328f16416daba"
+    },
+    {
+      "path": "docs/references/SCUM_Lobby_Original.png.png",
+      "width": 1836,
+      "height": 856,
+      "bytes": 2759410,
+      "sha256": "915c0e5de53613473fc948f7f13c4f9d4919b5a45ba1e4e8e8ce47b02fa388f4"
+    }
+  ],
+  "legacy_v043_embedded_images": [
+    {
+      "occurrence": 0,
+      "sha256": "635f5419a464c5e9097907ea556f95b30741b33b5abf175a4322425101f94855",
+      "identical_asset": "assets/images/lobby-background.jpg"
+    },
+    {
+      "occurrence": 1,
+      "sha256": "a0e9a0154f1a965a8dc3811e9eed1d224cf937711c2d7cab915b57bac664d43b",
+      "identical_asset": "assets/images/solo-background.jpg"
+    },
+    {
+      "occurrence": 2,
+      "sha256": "11441cb0fdbe42adc9ea0e5e4ac18f978990de7eb47e5dbd882f2bcb045198e6",
+      "identical_asset": "assets/images/battleground-background.jpg"
+    },
+    {
+      "occurrence": 3,
+      "sha256": "f60f84f1b235ad5fd2d99f8f26aacc80fed4419e52372e73b09c666f7ea780c3",
+      "identical_asset": "assets/images/servers-background.jpg"
+    },
+    {
+      "occurrence": 4,
+      "sha256": "8b83dbed89251570ae107011f488f1ea5ff463e2fb9c3cad7f5ca422e16f90d8",
+      "identical_asset": "assets/images/direct-background.jpg"
+    },
+    {
+      "occurrence": 5,
+      "sha256": "4e7d09b53b3139b4ef3068093f9ddd0fbead9385fb3bf9f0088c32811bcada9a",
+      "identical_asset": "assets/images/rent-background.jpg"
+    },
+    {
+      "occurrence": 6,
+      "sha256": "9f394458d1ab72a12c8af1bd7185785950616761c5ca3f021110710977dccdba",
+      "identical_asset": "assets/images/options-background.jpg"
+    },
+    {
+      "occurrence": 7,
+      "sha256": "5640212132cbce1acb849749cc7ed8d911d87c15d0f1051336562ffb0b273d51",
+      "identical_asset": "assets/images/infos-background.jpg"
+    },
+    {
+      "occurrence": 8,
+      "sha256": "5640212132cbce1acb849749cc7ed8d911d87c15d0f1051336562ffb0b273d51",
+      "identical_asset": "assets/images/infos-background.jpg"
+    },
+    {
+      "occurrence": 9,
+      "sha256": "a0e9a0154f1a965a8dc3811e9eed1d224cf937711c2d7cab915b57bac664d43b",
+      "identical_asset": "assets/images/solo-background.jpg"
+    },
+    {
+      "occurrence": 10,
+      "sha256": "f60f84f1b235ad5fd2d99f8f26aacc80fed4419e52372e73b09c666f7ea780c3",
+      "identical_asset": "assets/images/servers-background.jpg"
+    },
+    {
+      "occurrence": 11,
+      "sha256": "b558125b697c79a6ced25eea977f0629900e6856f6c2caf95391c4e5ca762295",
+      "identical_asset": "assets/images/last-session.jpg"
+    },
+    {
+      "occurrence": 12,
+      "sha256": "4b68c50fcfcf8bca759d05841528f3366fc273a718275b52838a2b097f9f41b5",
+      "identical_asset": "assets/images/home-news.jpg"
+    },
+    {
+      "occurrence": 13,
+      "sha256": "9b9b95c6d6051b6061f44487d5f9a38583d70c6a54a88222f400ee84f0dc8d0a",
+      "identical_asset": "assets/images/promo-battleground.jpg"
+    },
+    {
+      "occurrence": 14,
+      "sha256": "b71d60b2653dbd186ac5e62c1971a42661ee84035b5c1ee32362b61b60999562",
+      "identical_asset": "assets/images/promo-dlc.jpg"
+    },
+    {
+      "occurrence": 15,
+      "sha256": "a60319c795b05fc4926ae51c40542311846ebdfb95400dd3516acd9f070bda45",
+      "identical_asset": "assets/images/promo-community.jpg"
+    },
+    {
+      "occurrence": 16,
+      "sha256": "1fef201b575551c46dfeff502f96cc5e0fb2f04642a3ef12491be94ed94ae386",
+      "identical_asset": "assets/images/home-background.jpg"
+    },
+    {
+      "occurrence": 17,
+      "sha256": "a8908dae7a824c91a3765d2147a7082ef926edbb81af950337db9a93ef4d0479",
+      "identical_asset": "assets/images/shop-hero.jpg"
+    },
+    {
+      "occurrence": 18,
+      "sha256": "86a0d551588b0c6e6011cca7f64241f6e257538bf07d2c98b8d7737da8c8c9e3",
+      "identical_asset": "assets/images/shop-angler.jpg"
+    },
+    {
+      "occurrence": 19,
+      "sha256": "96b7f59237a4dbddbac668d811d0380b05cd890cf9066474a064580590410dc2",
+      "identical_asset": "assets/images/shop-stalker.jpg"
+    },
+    {
+      "occurrence": 20,
+      "sha256": "d0751da53c18bc1c60981a4c712519c6d8cb28b64d015cc484035752f79b23c6",
+      "identical_asset": "assets/images/shop-apex.jpg"
+    },
+    {
+      "occurrence": 21,
+      "sha256": "801bcc4c04f9848a3ecd191745ed9331b72e2b636bdaf96b9e163eb1ab27d29c",
+      "identical_asset": "assets/images/shop-supporter.jpg"
+    },
+    {
+      "occurrence": 22,
+      "sha256": "abf859373d935657c7c5f077c0faecb70022e96475293cd1d62398636d8737c3",
+      "identical_asset": "assets/images/shop-detail.jpg"
+    },
+    {
+      "occurrence": 23,
+      "sha256": "f60f84f1b235ad5fd2d99f8f26aacc80fed4419e52372e73b09c666f7ea780c3",
+      "identical_asset": "assets/images/servers-background.jpg"
+    },
+    {
+      "occurrence": 24,
+      "sha256": "11441cb0fdbe42adc9ea0e5e4ac18f978990de7eb47e5dbd882f2bcb045198e6",
+      "identical_asset": "assets/images/battleground-background.jpg"
+    },
+    {
+      "occurrence": 25,
+      "sha256": "8b83dbed89251570ae107011f488f1ea5ff463e2fb9c3cad7f5ca422e16f90d8",
+      "identical_asset": "assets/images/direct-background.jpg"
+    },
+    {
+      "occurrence": 26,
+      "sha256": "635f5419a464c5e9097907ea556f95b30741b33b5abf175a4322425101f94855",
+      "identical_asset": "assets/images/lobby-background.jpg"
+    },
+    {
+      "occurrence": 27,
+      "sha256": "9f394458d1ab72a12c8af1bd7185785950616761c5ca3f021110710977dccdba",
+      "identical_asset": "assets/images/options-background.jpg"
+    },
+    {
+      "occurrence": 28,
+      "sha256": "5640212132cbce1acb849749cc7ed8d911d87c15d0f1051336562ffb0b273d51",
+      "identical_asset": "assets/images/infos-background.jpg"
+    },
+    {
+      "occurrence": 29,
+      "sha256": "53ac772732652227a3da1a4821717ee6650f51f0245972a0095e4426ac4fa887",
+      "identical_asset": "assets/images/logo.png"
+    },
+    {
+      "occurrence": 30,
+      "sha256": "f9b0e392be075a4aa11400ecc26665e092e5e6c9a4c5d89b03979379aad70a32",
+      "identical_asset": "assets/images/avatar.png"
+    }
+  ],
+  "legacy_images_without_production_match": 0
+}
